@@ -1,0 +1,2689 @@
+19:24:02 **** Build of project testMathFunction_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/bram_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/mathFunction_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/mathFunction_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/bram_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling bram"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/mathFunction_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/mathFunction_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling mathFunction"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from sleep.c:57:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:60:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:55:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:53:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+19:24:44 **** Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+'Finished building: ../src/main.cc'
+' '
+'Building target: testMathFunction.elf'
+'Invoking: ARM v7 g++ linker'
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../testMathFunction_bsp/ps7_cortexa9_0/lib -o "testMathFunction.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: testMathFunction.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size testMathFunction.elf  |tee "testMathFunction.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19024	   1144	  22576	  42744	   a6f8	testMathFunction.elf
+'Finished building: testMathFunction.elf.size'
+' '
+19:24:48 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+19:39:15 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:5:10: fatal error: mathfunction.h: No such file or directory
+ #include <mathfunction.h>
+          ^~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+19:39:24 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+'Finished building: ../src/main.cc'
+' '
+'Building target: testMathFunction.elf'
+'Invoking: ARM v7 g++ linker'
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../testMathFunction_bsp/ps7_cortexa9_0/lib -o "testMathFunction.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: testMathFunction.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size testMathFunction.elf  |tee "testMathFunction.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19024	   1144	  22576	  42744	   a6f8	testMathFunction.elf
+'Finished building: testMathFunction.elf.size'
+' '
+19:39:33 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+'Finished building: ../src/main.cc'
+' '
+'Building target: testMathFunction.elf'
+'Invoking: ARM v7 g++ linker'
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../testMathFunction_bsp/ps7_cortexa9_0/lib -o "testMathFunction.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: testMathFunction.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size testMathFunction.elf  |tee "testMathFunction.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19024	   1144	  22576	  42744	   a6f8	testMathFunction.elf
+'Finished building: testMathFunction.elf.size'
+' '
+19:39:59 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:7:10: fatal error: AxiTimerHelper.h: No such file or directory
+ #include "AxiTimerHelper.h"
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+19:43:41 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:7:10: fatal error: AxiTimerHelper.h: No such file or directory
+ #include "AxiTimerHelper.h"
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+19:44:43 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:7:10: fatal error: AxiTimerHelper.h: No such file or directory
+ #include "AxiTimerHelper.h"
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+19:44:54 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:8:10: fatal error: AxiTimerHelper.h: No such file or directory
+ #include "AxiTimerHelper.h"
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+19:45:29 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:8:10: fatal error: AxiTimerHelper.h: No such file or directory
+ #include "AxiTimerHelper.h"
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+19:45:39 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:8:10: fatal error: AxiTimerHelper.h: No such file or directory
+ #include "AxiTimerHelper.h"
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+19:47:12 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:8:10: fatal error: AxiTimerHelper.h: No such file or directory
+ #include "AxiTimerHelper.h"
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+19:47:15 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:8:10: fatal error: AxiTimerHelper.h: No such file or directory
+ #include "AxiTimerHelper.h"
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+19:49:49 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:8:10: fatal error: AxiTimerHelper.h: No such file or directory
+ #include "AxiTimerHelper.h"
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+19:49:51 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:8:10: fatal error: AxiTimerHelper.h: No such file or directory
+ #include "AxiTimerHelper.h"
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+19:50:19 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:8:10: fatal error: AxiTimerHelper.h: No such file or directory
+ #include "AxiTimerHelper.h"
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+19:50:23 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:8:10: fatal error: AxiTimerHelper.h: No such file or directory
+ #include "AxiTimerHelper.h"
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+19:51:21 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:8:10: fatal error: AxiTimerHelper.h: No such file or directory
+ #include "AxiTimerHelper.h"
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+19:51:24 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:8:10: fatal error: AxiTimerHelper.h: No such file or directory
+ #include "AxiTimerHelper.h"
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+19:58:26 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:8:10: fatal error: AxiTimerHelper.h: No such file or directory
+ #include "AxiTimerHelper.h"
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+20:01:45 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:8:10: fatal error: AxiTimerHelper.h: No such file or directory
+ #include "AxiTimerHelper.h"
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+20:02:01 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:8:10: fatal error: AxiTimerHelper.h: No such file or directory
+ #include "AxiTimerHelper.h"
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+20:02:17 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:8:10: fatal error: AxiTimerHelper.h: No such file or directory
+ #include "AxiTimerHelper.h"
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+20:03:02 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:8:10: fatal error: AxiTimerHelper.h: No such file or directory
+ #include "AxiTimerHelper.h"
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+20:03:11 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:8:10: fatal error: AxiTimerHelper.h: No such file or directory
+ #include "AxiTimerHelper.h"
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+20:04:12 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:8:10: fatal error: AxiTimerHelper.h: No such file or directory
+ #include "AxiTimerHelper.h"
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+20:04:14 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:8:10: fatal error: AxiTimerHelper.h: No such file or directory
+ #include "AxiTimerHelper.h"
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+20:04:24 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:8:10: fatal error: AxiTimerHelper.h: No such file or directory
+ #include "AxiTimerHelper.h"
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+20:05:13 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:8:10: fatal error: AxiTimerHelper.h: No such file or directory
+ #include "AxiTimerHelper.h"
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+20:06:30 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:8:10: fatal error: AxiTimerHelper.h: No such file or directory
+ #include "AxiTimerHelper.h"
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+20:06:36 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:8:10: fatal error: AxiTimerHelper.h: No such file or directory
+ #include "AxiTimerHelper.h"
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+20:08:16 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:8:10: fatal error: AxiTimerHelper.h: No such file or directory
+ #include "AxiTimerHelper.h"
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+20:09:50 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:8:10: fatal error: AxiTimerHelper.h: No such file or directory
+ #include "AxiTimerHelper.h"
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+20:09:57 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:8:10: fatal error: AxiTimerHelper.h: No such file or directory
+ #include "AxiTimerHelper.h"
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+20:21:19 **** Clean-only build of project testMathFunction_bsp ****
+make -k clean 
+make -C ps7_cortexa9_0/libsrc/bram_v4_2/src -s clean 
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s clean 
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s clean 
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s clean 
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s clean 
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s clean 
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s clean 
+make -C ps7_cortexa9_0/libsrc/mathFunction_v1_0/src -s clean 
+rm: cannot lstat `*.o': Invalid argument
+make[1]: *** [clean] Error 1
+make: *** [ps7_cortexa9_0/libsrc/mathFunction_v1_0/src/make.clean] Error 2
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s clean 
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s clean 
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s clean 
+make -C ps7_cortexa9_0/libsrc/tmrctr_v4_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s clean 
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s clean 
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s clean 
+make: Target `clean' not remade because of errors.
+20:21:21 **** Clean-only build of configuration Debug for project testMathFunction ****
+make clean 
+rm -rf  ./src/main.d  ./src/main.o  testMathFunction.elf.size  testMathFunction.elf
+' '
+20:21:22 **** Build of project testMathFunction_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/bram_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/mathFunction_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/mathFunction_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/tmrctr_v4_4/src"
+make -C ps7_cortexa9_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/bram_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling bram"
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xbram_hw.h:63,
+                 from xbram.h:139,
+                 from xbram.c:62:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xbram_hw.h:63,
+                 from xbram.h:139,
+                 from xbram.c:62:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xbram_hw.h:63,
+                 from xbram.h:139,
+                 from xbram_g.c:54:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xbram_hw.h:63,
+                 from xbram.h:139,
+                 from xbram_g.c:54:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xbram_hw.h:63,
+                 from xbram.h:139,
+                 from xbram_intr.c:58:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xbram_hw.h:63,
+                 from xbram.h:139,
+                 from xbram_intr.c:58:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xbram_hw.h:63,
+                 from xbram.h:139,
+                 from xbram_selftest.c:72:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xbram_hw.h:63,
+                 from xbram.h:139,
+                 from xbram_selftest.c:72:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xbram_sinit.c:60:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xbram_hw.h:63,
+                 from xbram.h:139,
+                 from xbram_sinit.c:61:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xbram_hw.h:63,
+                 from xbram.h:139,
+                 from xbram_sinit.c:61:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [libs] Error 1
+make: *** [ps7_cortexa9_0/libsrc/bram_v4_2/src/make.libs] Error 2
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xdevcfg_hw.h:68,
+                 from xdevcfg.h:170,
+                 from xdevcfg.c:92:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xdevcfg_hw.h:68,
+                 from xdevcfg.h:170,
+                 from xdevcfg.c:92:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xdevcfg.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xdevcfg_hw.h:68,
+                 from xdevcfg.h:170,
+                 from xdevcfg_g.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xdevcfg_hw.h:68,
+                 from xdevcfg.h:170,
+                 from xdevcfg_g.c:55:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xdevcfg_g.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xdevcfg_hw.h:68,
+                 from xdevcfg_hw.c:52:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xdevcfg_hw.h:68,
+                 from xdevcfg_hw.c:52:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xdevcfg_hw.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xdevcfg_hw.h:68,
+                 from xdevcfg.h:170,
+                 from xdevcfg_intr.c:57:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xdevcfg_hw.h:68,
+                 from xdevcfg.h:170,
+                 from xdevcfg_intr.c:57:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xdevcfg_intr.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xdevcfg_hw.h:68,
+                 from xdevcfg.h:170,
+                 from xdevcfg_selftest.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xdevcfg_hw.h:68,
+                 from xdevcfg.h:170,
+                 from xdevcfg_selftest.c:56:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xdevcfg_selftest.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xdevcfg_hw.h:68,
+                 from xdevcfg.h:170,
+                 from xdevcfg_sinit.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xdevcfg_hw.h:68,
+                 from xdevcfg.h:170,
+                 from xdevcfg_sinit.c:55:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xdevcfg_sinit.o] Error 1
+make[1]: Target `libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/devcfg_v3_5/src/make.libs] Error 2
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+In file included from xdmaps.h:99:0,
+                 from xdmaps.c:82:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xdmaps_hw.h:68,
+                 from xdmaps.h:104,
+                 from xdmaps.c:82:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xdmaps_hw.h:68,
+                 from xdmaps.h:104,
+                 from xdmaps.c:82:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xdmaps.o] Error 1
+In file included from xdmaps_g.c:54:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xdmaps.h:99:0,
+                 from xdmaps_g.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xdmaps_hw.h:68,
+                 from xdmaps.h:104,
+                 from xdmaps_g.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xdmaps_hw.h:68,
+                 from xdmaps.h:104,
+                 from xdmaps_g.c:55:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xdmaps_g.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xdmaps_hw.h:68,
+                 from xdmaps_hw.c:53:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xdmaps_hw.h:68,
+                 from xdmaps_hw.c:53:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xdmaps_hw.o] Error 1
+In file included from xdmaps.h:99:0,
+                 from xdmaps_selftest.c:54:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xdmaps_hw.h:68,
+                 from xdmaps.h:104,
+                 from xdmaps_selftest.c:54:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xdmaps_hw.h:68,
+                 from xdmaps.h:104,
+                 from xdmaps_selftest.c:54:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xdmaps_selftest.o] Error 1
+In file included from xdmaps_sinit.c:55:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xdmaps.h:99:0,
+                 from xdmaps_sinit.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xdmaps_hw.h:68,
+                 from xdmaps.h:104,
+                 from xdmaps_sinit.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xdmaps_hw.h:68,
+                 from xdmaps.h:104,
+                 from xdmaps_sinit.c:56:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xdmaps_sinit.o] Error 1
+make[1]: Target `libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/dmaps_v2_3/src/make.libs] Error 2
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xemacps_hw.h:75,
+                 from xemacps.h:350,
+                 from xemacps.c:63:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xemacps_hw.h:75,
+                 from xemacps.h:350,
+                 from xemacps.c:63:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xemacps.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xemacps_hw.h:75,
+                 from xemacps_bdring.c:70:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xemacps_hw.h:75,
+                 from xemacps_bdring.c:70:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xemacps_bdring.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xemacps_hw.h:75,
+                 from xemacps.h:350,
+                 from xemacps_control.c:60:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xemacps_hw.h:75,
+                 from xemacps.h:350,
+                 from xemacps_control.c:60:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xemacps_control.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xemacps_hw.h:75,
+                 from xemacps.h:350,
+                 from xemacps_g.c:63:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xemacps_hw.h:75,
+                 from xemacps.h:350,
+                 from xemacps_g.c:63:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xemacps_g.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xemacps_hw.h:75,
+                 from xemacps_hw.c:54:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xemacps_hw.h:75,
+                 from xemacps_hw.c:54:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xemacps_hw.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xemacps_hw.h:75,
+                 from xemacps.h:350,
+                 from xemacps_intr.c:67:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xemacps_hw.h:75,
+                 from xemacps.h:350,
+                 from xemacps_intr.c:67:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xemacps_intr.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xemacps_hw.h:75,
+                 from xemacps.h:350,
+                 from xemacps_sinit.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xemacps_hw.h:75,
+                 from xemacps.h:350,
+                 from xemacps_sinit.c:55:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xemacps_sinit.o] Error 1
+make[1]: Target `libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/emacps_v3_7/src/make.libs] Error 2
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xgpiops_hw.h:67,
+                 from xgpiops.h:123,
+                 from xgpiops.c:62:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xgpiops_hw.h:67,
+                 from xgpiops.h:123,
+                 from xgpiops.c:62:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xgpiops.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xgpiops_hw.h:67,
+                 from xgpiops.h:123,
+                 from xgpiops_g.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xgpiops_hw.h:67,
+                 from xgpiops.h:123,
+                 from xgpiops_g.c:55:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xgpiops_g.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xgpiops_hw.h:67,
+                 from xgpiops_hw.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xgpiops_hw.h:67,
+                 from xgpiops_hw.c:56:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xgpiops_hw.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xgpiops_hw.h:67,
+                 from xgpiops.h:123,
+                 from xgpiops_intr.c:57:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xgpiops_hw.h:67,
+                 from xgpiops.h:123,
+                 from xgpiops_intr.c:57:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xgpiops_intr.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xgpiops_hw.h:67,
+                 from xgpiops.h:123,
+                 from xgpiops_selftest.c:57:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xgpiops_hw.h:67,
+                 from xgpiops.h:123,
+                 from xgpiops_selftest.c:57:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xgpiops_selftest.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xgpiops_hw.h:67,
+                 from xgpiops.h:123,
+                 from xgpiops_sinit.c:58:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xgpiops_hw.h:67,
+                 from xgpiops.h:123,
+                 from xgpiops_sinit.c:58:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xgpiops_sinit.o] Error 1
+make[1]: Target `libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/gpiops_v3_3/src/make.libs] Error 2
+"Running Make libs in ps7_cortexa9_0/libsrc/mathFunction_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/mathFunction_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling mathFunction"
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xmathfunction.h:20,
+                 from xmathfunction.c:9:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xmathfunction.h:20,
+                 from xmathfunction.c:9:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xmathfunction_sinit.c:11:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xmathfunction.h:20,
+                 from xmathfunction_sinit.c:12:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xmathfunction.h:20,
+                 from xmathfunction_sinit.c:12:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [libs] Error 1
+make: *** [ps7_cortexa9_0/libsrc/mathFunction_v1_0/src/make.libs] Error 2
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xqspips_hw.h:80,
+                 from xqspips.h:298,
+                 from xqspips.c:112:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xqspips_hw.h:80,
+                 from xqspips.h:298,
+                 from xqspips.c:112:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xqspips.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xqspips_hw.h:80,
+                 from xqspips.h:298,
+                 from xqspips_g.c:54:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xqspips_hw.h:80,
+                 from xqspips.h:298,
+                 from xqspips_g.c:54:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xqspips_g.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xqspips_hw.h:80,
+                 from xqspips_hw.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xqspips_hw.h:80,
+                 from xqspips_hw.c:56:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xqspips_hw.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xqspips_hw.h:80,
+                 from xqspips.h:298,
+                 from xqspips_options.c:69:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xqspips_hw.h:80,
+                 from xqspips.h:298,
+                 from xqspips_options.c:69:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xqspips_options.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xqspips_hw.h:80,
+                 from xqspips.h:298,
+                 from xqspips_selftest.c:58:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xqspips_hw.h:80,
+                 from xqspips.h:298,
+                 from xqspips_selftest.c:58:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xqspips_selftest.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xqspips_hw.h:80,
+                 from xqspips.h:298,
+                 from xqspips_sinit.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xqspips_hw.h:80,
+                 from xqspips.h:298,
+                 from xqspips_sinit.c:55:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xqspips_sinit.o] Error 1
+make[1]: Target `libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/qspips_v3_4/src/make.libs] Error 2
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xscugic.h:198,
+                 from xscugic.c:129:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xscugic.h:198,
+                 from xscugic.c:129:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xscugic.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xscugic.h:198,
+                 from xscugic_g.c:63:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xscugic.h:198,
+                 from xscugic_g.c:63:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xscugic_g.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xscugic.h:198,
+                 from xscugic_hw.c:82:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xscugic.h:198,
+                 from xscugic_hw.c:82:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xscugic_hw.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xscugic.h:198,
+                 from xscugic_intr.c:83:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xscugic.h:198,
+                 from xscugic_intr.c:83:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xscugic_intr.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xscugic.h:198,
+                 from xscugic_selftest.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xscugic.h:198,
+                 from xscugic_selftest.c:56:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xscugic_selftest.o] Error 1
+In file included from xscugic_sinit.c:58:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xscugic.h:198,
+                 from xscugic_sinit.c:59:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xscugic.h:198,
+                 from xscugic_sinit.c:59:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xscugic_sinit.o] Error 1
+make[1]: Target `libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/scugic_v3_9/src/make.libs] Error 2
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xscutimer_hw.h:66,
+                 from xscutimer.h:117,
+                 from xscutimer.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xscutimer_hw.h:66,
+                 from xscutimer.h:117,
+                 from xscutimer.c:55:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xscutimer.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xscutimer_hw.h:66,
+                 from xscutimer.h:117,
+                 from xscutimer_g.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xscutimer_hw.h:66,
+                 from xscutimer.h:117,
+                 from xscutimer_g.c:55:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xscutimer_g.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xscutimer_hw.h:66,
+                 from xscutimer.h:117,
+                 from xscutimer_selftest.c:54:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xscutimer_hw.h:66,
+                 from xscutimer.h:117,
+                 from xscutimer_selftest.c:54:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xscutimer_selftest.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xscutimer_hw.h:66,
+                 from xscutimer.h:117,
+                 from xscutimer_sinit.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xscutimer_hw.h:66,
+                 from xscutimer.h:117,
+                 from xscutimer_sinit.c:55:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xscutimer_sinit.o] Error 1
+make[1]: Target `libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/scutimer_v2_1/src/make.libs] Error 2
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xscuwdt_hw.h:69,
+                 from xscuwdt.h:139,
+                 from xscuwdt.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xscuwdt_hw.h:69,
+                 from xscuwdt.h:139,
+                 from xscuwdt.c:55:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xscuwdt.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xscuwdt_hw.h:69,
+                 from xscuwdt.h:139,
+                 from xscuwdt_g.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xscuwdt_hw.h:69,
+                 from xscuwdt.h:139,
+                 from xscuwdt_g.c:56:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xscuwdt_g.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xscuwdt_hw.h:69,
+                 from xscuwdt.h:139,
+                 from xscuwdt_selftest.c:54:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xscuwdt_hw.h:69,
+                 from xscuwdt.h:139,
+                 from xscuwdt_selftest.c:54:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xscuwdt_selftest.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xscuwdt_hw.h:69,
+                 from xscuwdt.h:139,
+                 from xscuwdt_sinit.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xscuwdt_hw.h:69,
+                 from xscuwdt.h:139,
+                 from xscuwdt_sinit.c:55:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xscuwdt_sinit.o] Error 1
+make[1]: Target `libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/scuwdt_v2_1/src/make.libs] Error 2
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+In file included from ../../../include/xil_printf.h:12:0,
+                 from xsdps.h:165,
+                 from xsdps.c:99:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xsdps.h:165:0,
+                 from xsdps.c:99:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xsdps.o] Error 1
+In file included from xsdps_g.c:55:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from xsdps.h:165,
+                 from xsdps_g.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xsdps.h:165:0,
+                 from xsdps_g.c:56:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xsdps_g.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from xsdps.h:165,
+                 from xsdps_options.c:84:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xsdps.h:165:0,
+                 from xsdps_options.c:84:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xsdps_options.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from xsdps.h:165,
+                 from xsdps_sinit.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xsdps.h:165:0,
+                 from xsdps_sinit.c:56:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xsdps_sinit.o] Error 1
+make[1]: Target `libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/sdps_v3_5/src/make.libs] Error 2
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from xil_printf.h:12:0,
+                 from print.c:20:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from print.c:20:0:
+xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xil_printf.h:12:0,
+                 from read.c:36:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from read.c:36:0:
+xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xil_printf.h:12:0,
+                 from xil_io.h:65,
+                 from sleep.h:56,
+                 from sleep.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_io.h:65:0,
+                 from sleep.h:56,
+                 from sleep.c:56:
+xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xil_printf.h:12:0,
+                 from xil_io.h:65,
+                 from sleep.h:56,
+                 from usleep.c:59:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_io.h:65:0,
+                 from sleep.h:56,
+                 from usleep.c:59:
+xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xil_printf.h:12:0,
+                 from write.c:36:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from write.c:36:0:
+xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xil_printf.h:12:0,
+                 from xil_io.h:65,
+                 from xil_cache.c:110:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_io.h:65:0,
+                 from xil_cache.c:110:
+xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xil_printf.h:12:0,
+                 from xil_io.h:65,
+                 from xil_io.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_io.h:65:0,
+                 from xil_io.c:55:
+xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xil_printf.h:12:0,
+                 from xil_io.h:65,
+                 from xil_misc_psreset_api.h:58,
+                 from xil_misc_psreset_api.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_io.h:65:0,
+                 from xil_misc_psreset_api.h:58,
+                 from xil_misc_psreset_api.c:55:
+xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xil_printf.h:12:0,
+                 from xil_printf.c:8:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_printf.c:8:0:
+xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xil_printf.h:12:0,
+                 from xil_io.h:65,
+                 from xil_sleepcommon.c:50:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_io.h:65:0,
+                 from xil_sleepcommon.c:50:
+xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xil_printf.h:12:0,
+                 from xil_io.h:65,
+                 from xil_sleeptimer.c:53:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_io.h:65:0,
+                 from xil_sleeptimer.c:53:
+xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xil_printf.h:12:0,
+                 from xil_io.h:65,
+                 from xil_testio.c:52:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_io.h:65:0,
+                 from xil_testio.c:52:
+xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xil_printf.h:12:0,
+                 from xil_io.h:65,
+                 from xil_testmem.c:51:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_io.h:65:0,
+                 from xil_testmem.c:51:
+xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xil_printf.h:12:0,
+                 from xil_io.h:65,
+                 from xplatform_info.c:62:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_io.h:65:0,
+                 from xplatform_info.c:62:
+xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xtime_l.h:67:0,
+                 from xtime_l.c:53:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_printf.h:12:0,
+                 from xil_io.h:65,
+                 from xtime_l.c:57:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_io.h:65:0,
+                 from xtime_l.c:57:
+xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from boot.S:97:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from translation_table.S:96:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+xil-crt0.S:61:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [standalone_libs] Error 1
+make[1]: Target `libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/standalone_v6_7/src/make.libs] Error 2
+"Running Make libs in ps7_cortexa9_0/libsrc/tmrctr_v4_4/src"
+make -C ps7_cortexa9_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling tmrctr"
+In file included from xtmrctr.c:73:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xtmrctr_l.h:77,
+                 from xtmrctr.h:179,
+                 from xtmrctr.c:74:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xtmrctr_l.h:77,
+                 from xtmrctr.h:179,
+                 from xtmrctr.c:74:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xtmrctr_l.h:77,
+                 from xtmrctr.h:179,
+                 from xtmrctr_g.c:57:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xtmrctr_l.h:77,
+                 from xtmrctr.h:179,
+                 from xtmrctr_g.c:57:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xtmrctr_l.h:77,
+                 from xtmrctr.h:179,
+                 from xtmrctr_intr.c:58:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xtmrctr_l.h:77,
+                 from xtmrctr.h:179,
+                 from xtmrctr_intr.c:58:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xtmrctr_l.h:77,
+                 from xtmrctr_l.c:58:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xtmrctr_l.h:77,
+                 from xtmrctr_l.c:58:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xtmrctr_l.h:77,
+                 from xtmrctr.h:179,
+                 from xtmrctr_options.c:57:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xtmrctr_l.h:77,
+                 from xtmrctr.h:179,
+                 from xtmrctr_options.c:57:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xtmrctr_selftest.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xtmrctr_selftest.c:56:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xtmrctr_sinit.c:56:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xtmrctr_l.h:77,
+                 from xtmrctr.h:179,
+                 from xtmrctr_sinit.c:57:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xtmrctr_l.h:77,
+                 from xtmrctr.h:179,
+                 from xtmrctr_sinit.c:57:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xtmrctr_l.h:77,
+                 from xtmrctr.h:179,
+                 from xtmrctr_stats.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xtmrctr_l.h:77,
+                 from xtmrctr.h:179,
+                 from xtmrctr_stats.c:55:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [libs] Error 1
+make: *** [ps7_cortexa9_0/libsrc/tmrctr_v4_4/src/make.libs] Error 2
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ttcps"
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xttcps_hw.h:69,
+                 from xttcps.h:119,
+                 from xttcps.c:67:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xttcps_hw.h:69,
+                 from xttcps.h:119,
+                 from xttcps.c:67:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xttcps.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xttcps_hw.h:69,
+                 from xttcps.h:119,
+                 from xttcps_g.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xttcps_hw.h:69,
+                 from xttcps.h:119,
+                 from xttcps_g.c:56:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xttcps_g.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xttcps_hw.h:69,
+                 from xttcps.h:119,
+                 from xttcps_options.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xttcps_hw.h:69,
+                 from xttcps.h:119,
+                 from xttcps_options.c:56:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xttcps_options.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xttcps_hw.h:69,
+                 from xttcps.h:119,
+                 from xttcps_selftest.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xttcps_hw.h:69,
+                 from xttcps.h:119,
+                 from xttcps_selftest.c:55:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xttcps_selftest.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xttcps_hw.h:69,
+                 from xttcps.h:119,
+                 from xttcps_sinit.c:54:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xttcps_hw.h:69,
+                 from xttcps.h:119,
+                 from xttcps_sinit.c:54:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xttcps_sinit.o] Error 1
+make[1]: Target `libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/ttcps_v3_6/src/make.libs] Error 2
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xuartps_hw.h:75,
+                 from xuartps.h:190,
+                 from xuartps.c:60:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xuartps_hw.h:75,
+                 from xuartps.h:190,
+                 from xuartps.c:60:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xuartps.o] Error 1
+In file included from xuartps_g.c:56:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xuartps_hw.h:75,
+                 from xuartps.h:190,
+                 from xuartps_g.c:57:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xuartps_hw.h:75,
+                 from xuartps.h:190,
+                 from xuartps_g.c:57:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xuartps_g.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xuartps_hw.h:75,
+                 from xuartps_hw.c:53:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xuartps_hw.h:75,
+                 from xuartps_hw.c:53:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xuartps_hw.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xuartps_hw.h:75,
+                 from xuartps.h:190,
+                 from xuartps_intr.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xuartps_hw.h:75,
+                 from xuartps.h:190,
+                 from xuartps_intr.c:55:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xuartps_intr.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xuartps_hw.h:75,
+                 from xuartps.h:190,
+                 from xuartps_options.c:58:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xuartps_hw.h:75,
+                 from xuartps.h:190,
+                 from xuartps_options.c:58:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xuartps_options.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xuartps_hw.h:75,
+                 from xuartps.h:190,
+                 from xuartps_selftest.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xuartps_hw.h:75,
+                 from xuartps.h:190,
+                 from xuartps_selftest.c:55:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xuartps_selftest.o] Error 1
+In file included from xuartps_sinit.c:56:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xuartps_hw.h:75,
+                 from xuartps.h:190,
+                 from xuartps_sinit.c:57:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xuartps_hw.h:75,
+                 from xuartps.h:190,
+                 from xuartps_sinit.c:57:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xuartps_sinit.o] Error 1
+make[1]: Target `libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/uartps_v3_6/src/make.libs] Error 2
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xusbps_hw.h:66,
+                 from xusbps.h:203,
+                 from xusbps.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xusbps_hw.h:66,
+                 from xusbps.h:203,
+                 from xusbps.c:56:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xusbps.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xusbps_hw.h:66,
+                 from xusbps.h:203,
+                 from xusbps_endpoint.c:65:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xusbps_hw.h:66,
+                 from xusbps.h:203,
+                 from xusbps_endpoint.c:65:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xusbps_endpoint.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xusbps_hw.h:66,
+                 from xusbps.h:203,
+                 from xusbps_g.c:54:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xusbps_hw.h:66,
+                 from xusbps.h:203,
+                 from xusbps_g.c:54:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xusbps_g.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xusbps_hw.h:66,
+                 from xusbps.h:203,
+                 from xusbps_hw.c:54:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xusbps_hw.h:66,
+                 from xusbps.h:203,
+                 from xusbps_hw.c:54:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xusbps_hw.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xusbps_hw.h:66,
+                 from xusbps.h:203,
+                 from xusbps_intr.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xusbps_hw.h:66,
+                 from xusbps.h:203,
+                 from xusbps_intr.c:56:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xusbps_intr.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xusbps_hw.h:66,
+                 from xusbps.h:203,
+                 from xusbps_sinit.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xusbps_hw.h:66,
+                 from xusbps.h:203,
+                 from xusbps_sinit.c:55:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xusbps_sinit.o] Error 1
+make[1]: Target `libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/usbps_v2_4/src/make.libs] Error 2
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xadcps_hw.h:73,
+                 from xadcps.h:198,
+                 from xadcps.c:66:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xadcps_hw.h:73,
+                 from xadcps.h:198,
+                 from xadcps.c:66:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xadcps.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xadcps_hw.h:73,
+                 from xadcps.h:198,
+                 from xadcps_g.c:61:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xadcps_hw.h:73,
+                 from xadcps.h:198,
+                 from xadcps_g.c:61:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xadcps_g.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xadcps_hw.h:73,
+                 from xadcps.h:198,
+                 from xadcps_intr.c:67:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xadcps_hw.h:73,
+                 from xadcps.h:198,
+                 from xadcps_intr.c:67:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xadcps_intr.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xadcps_hw.h:73,
+                 from xadcps.h:198,
+                 from xadcps_selftest.c:61:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xadcps_hw.h:73,
+                 from xadcps.h:198,
+                 from xadcps_selftest.c:61:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xadcps_selftest.o] Error 1
+In file included from xadcps_sinit.c:58:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xadcps_hw.h:73,
+                 from xadcps.h:198,
+                 from xadcps_sinit.c:59:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xadcps_hw.h:73,
+                 from xadcps.h:198,
+                 from xadcps_sinit.c:59:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xadcps_sinit.o] Error 1
+make[1]: Target `libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/xadcps_v2_2/src/make.libs] Error 2
+make: Target `all' not remade because of errors.
+20:21:45 **** Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+In file included from ../../testMathFunction_bsp/ps7_cortexa9_0/include/xil_printf.h:12:0,
+                 from ../../testMathFunction_bsp/ps7_cortexa9_0/include/xil_io.h:65,
+                 from ../../testMathFunction_bsp/ps7_cortexa9_0/include/xmathfunction.h:20,
+                 from ../src/main.cc:5:
+../../testMathFunction_bsp/ps7_cortexa9_0/include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../testMathFunction_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../testMathFunction_bsp/ps7_cortexa9_0/include/xmathfunction.h:20,
+                 from ../src/main.cc:5:
+../../testMathFunction_bsp/ps7_cortexa9_0/include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+20:24:28 **** Build of project testMathFunction_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/bram_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/mathFunction_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/mathFunction_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/tmrctr_v4_4/src"
+make -C ps7_cortexa9_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/bram_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling bram"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/mathFunction_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/mathFunction_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling mathFunction"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from sleep.c:57:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:60:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:55:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:53:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/tmrctr_v4_4/src"
+make -C ps7_cortexa9_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+20:25:11 **** Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+'Finished building: ../src/main.cc'
+' '
+'Building target: testMathFunction.elf'
+'Invoking: ARM v7 g++ linker'
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../testMathFunction_bsp/ps7_cortexa9_0/lib -o "testMathFunction.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: testMathFunction.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size testMathFunction.elf  |tee "testMathFunction.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19024	   1144	  22576	  42744	   a6f8	testMathFunction.elf
+'Finished building: testMathFunction.elf.size'
+' '
+20:25:13 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:26:32 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:8:10: fatal error: axi: No such file or directory
+ #include <axi>
+          ^~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+23:25:33 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:8:10: fatal error: axi: No such file or directory
+ #include <axi>
+          ^~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+23:25:43 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:8:10: fatal error: axi: No such file or directory
+ #include <axi>
+          ^~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+23:25:59 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AxiTimerHelper.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AxiTimerHelper.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AxiTimerHelper.d" -MT"src/AxiTimerHelper.o" -o "src/AxiTimerHelper.o" "../src/AxiTimerHelper.cc"
+'Finished building: ../src/AxiTimerHelper.cc'
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:8:10: fatal error: axi: No such file or directory
+ #include <axi>
+          ^~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+23:26:10 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AxiTimerHelper.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AxiTimerHelper.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AxiTimerHelper.d" -MT"src/AxiTimerHelper.o" -o "src/AxiTimerHelper.o" "../src/AxiTimerHelper.cc"
+'Finished building: ../src/AxiTimerHelper.cc'
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:8:10: fatal error: axi: No such file or directory
+ #include <axi>
+          ^~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+23:26:13 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AxiTimerHelper.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AxiTimerHelper.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AxiTimerHelper.d" -MT"src/AxiTimerHelper.o" -o "src/AxiTimerHelper.o" "../src/AxiTimerHelper.cc"
+'Finished building: ../src/AxiTimerHelper.cc'
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:8:10: fatal error: axi: No such file or directory
+ #include <axi>
+          ^~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+23:26:26 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'void init_mathCore()':
+../src/main.cc:22:4: error: 'prinf' was not declared in this scope
+    prinf("Failed to Initialize\n");
+    ^~~~~
+../src/main.cc:22:4: note: suggested alternative: 'print'
+    prinf("Failed to Initialize\n");
+    ^~~~~
+    print
+../src/main.cc: In function 'int main()':
+../src/main.cc:77:24: error: 'class AxiTimerHelper' has no member named 'getElapsedTimeInSeconds'; did you mean 'getElapsedTimerInSeconds'?
+  double timeSW = timer.getElapsedTimeInSeconds();
+                        ^~~~~~~~~~~~~~~~~~~~~~~
+                        getElapsedTimerInSeconds
+../src/main.cc:87:24: error: 'class AxiTimerHelper' has no member named 'getElapsedTimeInSeconds'; did you mean 'getElapsedTimerInSeconds'?
+  double timeHW = timer.getElapsedTimeInSeconds();
+                        ^~~~~~~~~~~~~~~~~~~~~~~
+                        getElapsedTimerInSeconds
+make: *** [src/main.o] Error 1
+23:26:34 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'int main()':
+../src/main.cc:77:24: error: 'class AxiTimerHelper' has no member named 'getElapsedTimeInSeconds'; did you mean 'getElapsedTimerInSeconds'?
+  double timeSW = timer.getElapsedTimeInSeconds();
+                        ^~~~~~~~~~~~~~~~~~~~~~~
+                        getElapsedTimerInSeconds
+../src/main.cc:87:24: error: 'class AxiTimerHelper' has no member named 'getElapsedTimeInSeconds'; did you mean 'getElapsedTimerInSeconds'?
+  double timeHW = timer.getElapsedTimeInSeconds();
+                        ^~~~~~~~~~~~~~~~~~~~~~~
+                        getElapsedTimerInSeconds
+make: *** [src/main.o] Error 1
+23:26:57 **** Auto Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../testMathFunction_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+'Finished building: ../src/main.cc'
+' '
+'Building target: testMathFunction.elf'
+'Invoking: ARM v7 g++ linker'
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../testMathFunction_bsp/ps7_cortexa9_0/lib -o "testMathFunction.elf"  ./src/AxiTimerHelper.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: testMathFunction.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size testMathFunction.elf  |tee "testMathFunction.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 160247	   2628	  23380	 186255	  2d78f	testMathFunction.elf
+'Finished building: testMathFunction.elf.size'
+' '
+23:27:56 **** Incremental Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+23:28:56 **** Incremental Build of configuration Debug for project testMathFunction ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
