@@ -1,0 +1,84 @@
+INFO: [COSIM-47] Using XSIM for RTL simulation.
+INFO: [COSIM-14] Instrumenting C test bench ...
+   Build using "C:/Xilinx/Vivado/2018.2/msys64/mingw64/bin/g++"
+   Compiling apatb_simpleALU.cpp
+   Compiling test_core.cpp_pre.cpp.tb.cpp
+   Compiling core.cpp_pre.cpp.tb.cpp
+   Generating cosim.tv.exe
+INFO: [COSIM-302] Starting C TB testing ... 
+INFO: [COSIM-333] Generating C post check test bench ...
+INFO: [COSIM-12] Generating RTL test bench ...
+INFO: [COSIM-323] Starting verilog simulation. 
+INFO: [COSIM-15] Starting XSIM ...
+INFO: [COSIM-316] Starting C post checking ...
+Reference
+(SUM) A + B = 30
+(SUB) A - B = 10
+HDL
+(SUM) A + B = 30
+(SUB) A - B = 10
+
+F:\Machine-Learning\vivado_labs\Lab_3\solution1\sim\verilog>set PATH= 
+
+F:\Machine-Learning\vivado_labs\Lab_3\solution1\sim\verilog>call C:/Xilinx/Vivado/2018.2/bin/xelab xil_defaultlib.apatb_simpleALU_top glbl -prj simpleALU.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --initfile "C:/Xilinx/Vivado/2018.2/data/xsim/ip/xsim_ip.ini" --lib "ieee_proposed=./ieee_proposed" -s simpleALU  
+INFO: [XSIM 43-3496] Using init file passed via -initfile option "C:/Xilinx/Vivado/2018.2/data/xsim/ip/xsim_ip.ini".
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_simpleALU_top glbl -prj simpleALU.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --initfile C:/Xilinx/Vivado/2018.2/data/xsim/ip/xsim_ip.ini --lib ieee_proposed=./ieee_proposed -s simpleALU 
+Multi-threading is on. Using 4 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Machine-Learning/vivado_labs/Lab_3/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Machine-Learning/vivado_labs/Lab_3/solution1/sim/verilog/simpleALU.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_simpleALU_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Machine-Learning/vivado_labs/Lab_3/solution1/sim/verilog/simpleALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simpleALU
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.simpleALU
+Compiling module xil_defaultlib.apatb_simpleALU_top
+Compiling module work.glbl
+Built simulation snapshot simpleALU
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source F:/Machine-Learning/vivado_labs/Lab_3/solution1/sim/verilog/xsim.dir/simpleALU/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Jul  9 17:07:23 2023...
+
+****** xsim v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/simpleALU/xsim_script.tcl
+# xsim {simpleALU} -autoloadwcfg -tclbatch {simpleALU.tcl}
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source simpleALU.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 2 [n/a] @ "125000"
+// RTL Simulation : 1 / 2 [n/a] @ "145000"
+// RTL Simulation : 2 / 2 [n/a] @ "155000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 195 ns : File "F:/Machine-Learning/vivado_labs/Lab_3/solution1/sim/verilog/simpleALU.autotb.v" Line 375
+## quit
+INFO: [Common 17-206] Exiting xsim at Sun Jul  9 17:07:30 2023...
+Reference
+(SUM) A + B = 30
+(SUB) A - B = 10
+HDL
+(SUM) A + B = 30
+(SUB) A - B = 10
+INFO: [COSIM-1000] *** C/RTL co-simulation finished: PASS ***
+INFO: [COSIM-210] Design is translated to an combinational logic. II and Latency will be marked as all 0.

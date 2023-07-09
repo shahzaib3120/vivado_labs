@@ -1,0 +1,12 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../test_core.cpp in debug mode
+   Generating csim.exe
+Reference
+(SUM) A + B = 30
+(SUB) A - B = 10
+HDL
+(SUM) A + B = 30
+(SUB) A - B = 10
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

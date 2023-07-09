@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# xsim v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Jul  9 17:07:24 2023
+# Process ID: 21016
+# Current directory: F:/Machine-Learning/vivado_labs/Lab_3/solution1/sim/verilog
+# Command line: xsim.exe -mode tcl -source {xsim.dir/simpleALU/xsim_script.tcl}
+# Log file: F:/Machine-Learning/vivado_labs/Lab_3/solution1/sim/verilog/xsim.log
+# Journal file: F:/Machine-Learning/vivado_labs/Lab_3/solution1/sim/verilog\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/simpleALU/xsim_script.tcl
+# xsim {simpleALU} -autoloadwcfg -tclbatch {simpleALU.tcl}
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source simpleALU.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 2 [n/a] @ "125000"
+// RTL Simulation : 1 / 2 [n/a] @ "145000"
+// RTL Simulation : 2 / 2 [n/a] @ "155000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 195 ns : File "F:/Machine-Learning/vivado_labs/Lab_3/solution1/sim/verilog/simpleALU.autotb.v" Line 375
+## quit
+INFO: [Common 17-206] Exiting xsim at Sun Jul  9 17:07:30 2023...

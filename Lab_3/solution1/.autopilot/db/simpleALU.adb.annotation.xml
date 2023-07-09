@@ -1,0 +1,7 @@
+<annotationInfo>
+<annotationInfo>
+<item  id="12" filename="Lab_3/core.cpp" linenumber="7" name="tmp_1" contextFuncName="simpleALU" moduleName="simpleALU" rtlName="tmp_1_fu_36_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="24" fileDirectory="F:\Machine-Learning\vivado_labs"><\/item>
+<item  id="13" filename="Lab_3/core.cpp" linenumber="5" name="agg_result_V_assign" contextFuncName="simpleALU" moduleName="simpleALU" rtlName="agg_result_V_assign_fu_42_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="24" fileDirectory="F:\Machine-Learning\vivado_labs"><\/item>
+<item  id="14" filename="Lab_3/core.cpp" linenumber="4" name="agg_result_V" contextFuncName="simpleALU" moduleName="simpleALU" rtlName="ap_return" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="17" fileDirectory="F:\Machine-Learning\vivado_labs"><\/item>
+<\/annotationInfo>
+</annotationInfo>
