@@ -13611,3 +13611,6 @@ java.io.IOException: Cannot run program "F:\Machine-Learning\vivado_labs\Lab_6_S
 	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
 	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-07-10 01:53:25.840
+!MESSAGE Executed Webtalk command

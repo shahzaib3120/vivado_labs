@@ -30,3 +30,10 @@ Reason: ERROR: [Common 17-39] 'hsi::generate_bsp' failed due to earlier errors.
 20:21:19 INFO  : Closing and re-opening the MSS file of ther project testMathFunction_bsp
 20:21:19 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
 20:21:22 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+20:23:56 INFO  : Registering command handlers for SDK TCF services
+20:23:57 INFO  : Launching XSCT server: xsct.bat -interactive F:\Machine-Learning\vivado_labs\Lab_6_SDK\Lab_6_SDK.sdk\temp_xsdb_launch_script.tcl
+20:24:00 INFO  : XSCT server has started successfully.
+20:24:00 INFO  : Successfully done setting XSCT server connection channel  
+20:24:00 INFO  : Successfully done setting SDK workspace  
+20:24:00 INFO  : Processing command line option -hwspec F:/Machine-Learning/vivado_labs/Lab_6_SDK/Lab_6_SDK.sdk/design_1_wrapper.hdf.
+20:24:00 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
