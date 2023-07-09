@@ -1,0 +1,16 @@
+<annotationInfo>
+<annotationInfo>
+<item  id="12" filename="Lab_1/core.cpp" linenumber="2" name="tmp" contextFuncName="divide" moduleName="divide" rtlName="tmp_fu_86_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="11" fileDirectory="F:\Machine-Learning\vivado_labs"><\/item>
+<item  id="24" filename="Lab_1/core.cpp" linenumber="5" name="i_cast" contextFuncName="divide" moduleName="divide" rtlName="i_cast_fu_102_p1" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="F:\Machine-Learning\vivado_labs"><\/item>
+<item  id="25" filename="Lab_1/core.cpp" linenumber="5" name="tmp_1" contextFuncName="divide" moduleName="divide" rtlName="tmp_1_fu_106_p3" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="F:\Machine-Learning\vivado_labs"><\/item>
+<item  id="30" filename="Lab_1/core.cpp" linenumber="7" name="tmp_4" contextFuncName="divide" moduleName="divide" rtlName="tmp_4_fu_117_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="19" fileDirectory="F:\Machine-Learning\vivado_labs"><\/item>
+<item  id="31" filename="Lab_1/core.cpp" linenumber="7" name="tmp_5" contextFuncName="divide" moduleName="divide" rtlName="tmp_5_fu_123_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="8" fileDirectory="F:\Machine-Learning\vivado_labs"><\/item>
+<item  id="32" filename="Lab_1/core.cpp" linenumber="7" name="iBitN" contextFuncName="divide" moduleName="divide" rtlName="iBitN_fu_128_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="19" fileDirectory="F:\Machine-Learning\vivado_labs"><\/item>
+<item  id="33" filename="Lab_1/core.cpp" linenumber="8" name="tmp_2" contextFuncName="divide" moduleName="divide" rtlName="tmp_2_fu_134_p1" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="F:\Machine-Learning\vivado_labs"><\/item>
+<item  id="35" filename="Lab_1/core.cpp" linenumber="8" name="tmp_9" contextFuncName="divide" moduleName="divide" rtlName="tmp_9_fu_142_p3" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="F:\Machine-Learning\vivado_labs"><\/item>
+<item  id="37" filename="Lab_1/core.cpp" linenumber="9" name="tmp_s" contextFuncName="divide" moduleName="divide" rtlName="tmp_s_fu_151_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="11" fileDirectory="F:\Machine-Learning\vivado_labs"><\/item>
+<item  id="41" filename="Lab_1/core.cpp" linenumber="10" name="tmp_6" contextFuncName="divide" moduleName="divide" rtlName="tmp_6_fu_159_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="15" fileDirectory="F:\Machine-Learning\vivado_labs"><\/item>
+<item  id="43" filename="Lab_1/core.cpp" linenumber="11" name="tmp_7" contextFuncName="divide" moduleName="divide" rtlName="tmp_7_fu_164_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="8" fileDirectory="F:\Machine-Learning\vivado_labs"><\/item>
+<item  id="52" filename="Lab_1/core.cpp" linenumber="5" name="i_1" contextFuncName="divide" moduleName="divide" rtlName="i_1_fu_185_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="13" fileDirectory="F:\Machine-Learning\vivado_labs"><\/item>
+<\/annotationInfo>
+</annotationInfo>
