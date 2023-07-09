@@ -1,0 +1,9 @@
+sv work "glbl.v"
+sv xil_defaultlib "AESL_axi_slave_CRTL_BUS.v"
+sv xil_defaultlib "AESL_axi_s_inStream.v"
+sv xil_defaultlib "AESL_axi_s_outStream.v"
+sv xil_defaultlib "AESL_fifo.v"
+sv xil_defaultlib "doGain.autotb.v"
+sv xil_defaultlib "doGain.v"
+sv xil_defaultlib "doGain_CRTL_BUS_s_axi.v"
+
