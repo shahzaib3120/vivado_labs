@@ -29,7 +29,6 @@
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2018.2/include"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2018.2/include/etc"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2018.2/win64/tools/auto_cc/include"/>
-									<listOptionValue builtIn="false" value="F:/Machine-Learning/vivado_labs"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2018.2/win64/tools/systemc/include"/>
 								</option>
 								<option id="gnu.cpp.compiler.option.preprocessor.def.562851325" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
@@ -47,7 +46,6 @@
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2018.2/include"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2018.2/include/etc"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2018.2/win64/tools/auto_cc/include"/>
-									<listOptionValue builtIn="false" value="F:/Machine-Learning/vivado_labs"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2018.2/win64/tools/systemc/include"/>
 								</option>
 								<option id="gnu.c.compiler.option.preprocessor.def.symbols.451262335" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
@@ -115,7 +113,6 @@
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2018.2/include"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2018.2/include/etc"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2018.2/win64/tools/auto_cc/include"/>
-									<listOptionValue builtIn="false" value="F:/Machine-Learning/vivado_labs"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2018.2/win64/tools/systemc/include"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1777395610" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
@@ -128,7 +125,6 @@
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2018.2/include"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2018.2/include/etc"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2018.2/win64/tools/auto_cc/include"/>
-									<listOptionValue builtIn="false" value="F:/Machine-Learning/vivado_labs"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2018.2/win64/tools/systemc/include"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.38682506" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>

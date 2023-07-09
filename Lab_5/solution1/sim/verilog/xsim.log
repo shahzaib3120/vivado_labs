@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# xsim v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Jul  9 17:39:44 2023
+# Process ID: 17020
+# Current directory: F:/Machine-Learning/vivado_labs/Lab_5/solution1/sim/verilog
+# Command line: xsim.exe -mode tcl -source {xsim.dir/gravity/xsim_script.tcl}
+# Log file: F:/Machine-Learning/vivado_labs/Lab_5/solution1/sim/verilog/xsim.log
+# Journal file: F:/Machine-Learning/vivado_labs/Lab_5/solution1/sim/verilog\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/gravity/xsim_script.tcl
+# xsim {gravity} -autoloadwcfg -tclbatch {gravity.tcl}
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source gravity.tcl
+## run all
+Note: 
+******************************************************
+  renorm_and_round_logic.vhd :
+    FULL_MANT_RND1_DEL is using fast_input
+    which will be faster, but create more FFs.
+******************************************************
+Time: 0 ps  Iteration: 0
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 10 [0.00%] @ "125000"
+// RTL Simulation : 1 / 10 [37.50%] @ "885000"
+// RTL Simulation : 2 / 10 [37.50%] @ "1635000"
+// RTL Simulation : 3 / 10 [37.50%] @ "2385000"
+// RTL Simulation : 4 / 10 [37.50%] @ "3135000"
+// RTL Simulation : 5 / 10 [37.50%] @ "3885000"
+// RTL Simulation : 6 / 10 [37.50%] @ "4635000"
+// RTL Simulation : 7 / 10 [37.50%] @ "5385000"
+// RTL Simulation : 8 / 10 [37.50%] @ "6135000"
+// RTL Simulation : 9 / 10 [37.50%] @ "6885000"
+// RTL Simulation : 10 / 10 [100.00%] @ "7635000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 7675 ns : File "F:/Machine-Learning/vivado_labs/Lab_5/solution1/sim/verilog/gravity.autotb.v" Line 318
+## quit
+INFO: [Common 17-206] Exiting xsim at Sun Jul  9 17:39:50 2023...

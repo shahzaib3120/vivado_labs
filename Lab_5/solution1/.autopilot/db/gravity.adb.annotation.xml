@@ -1,0 +1,8 @@
+<annotationInfo>
+<annotationInfo>
+<item  id="16" filename="Lab_5/core.cpp" linenumber="7" name="tmp_3" contextFuncName="gravity" moduleName="gravity" rtlName="gravity_fadd_32nsbkb_U1" latency="4" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="F:\Machine-Learning\vivado_labs"><\/item>
+<item  id="17" filename="Lab_5/core.cpp" linenumber="7" name="dist_square" contextFuncName="gravity" moduleName="gravity" rtlName="gravity_fmul_32nscud_U2" latency="3" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="F:\Machine-Learning\vivado_labs"><\/item>
+<item  id="18" filename="Lab_5/core.cpp" linenumber="8" name="tmp_4" contextFuncName="gravity" moduleName="gravity" rtlName="gravity_fmul_32nscud_U2" latency="3" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="F:\Machine-Learning\vivado_labs"><\/item>
+<item  id="19" filename="Lab_5/core.cpp" linenumber="8" name="force" contextFuncName="gravity" moduleName="gravity" rtlName="gravity_fdiv_32nsdEe_U3" latency="15" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="F:\Machine-Learning\vivado_labs"><\/item>
+<\/annotationInfo>
+</annotationInfo>

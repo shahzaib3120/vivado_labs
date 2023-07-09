@@ -1,0 +1,12 @@
+vhdl xil_defaultlib "ip/xil_defaultlib/gravity_ap_fadd_3_full_dsp_32.vhd"
+vhdl xil_defaultlib "ip/xil_defaultlib/gravity_ap_fdiv_14_no_dsp_32.vhd"
+vhdl xil_defaultlib "ip/xil_defaultlib/gravity_ap_fmul_2_max_dsp_32.vhd"
+sv work "glbl.v"
+sv xil_defaultlib "AESL_axi_slave_CRTLS.v"
+sv xil_defaultlib "gravity.autotb.v"
+sv xil_defaultlib "gravity.v"
+sv xil_defaultlib "gravity_CRTLS_s_axi.v"
+sv xil_defaultlib "gravity_fadd_32nsbkb.v"
+sv xil_defaultlib "gravity_fdiv_32nsdEe.v"
+sv xil_defaultlib "gravity_fmul_32nscud.v"
+
