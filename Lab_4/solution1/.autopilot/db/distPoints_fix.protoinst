@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"distPoints_fix": {
+			"proto_instances": {
+			}
+		}
+	}
+}

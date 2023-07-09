@@ -1,0 +1,10 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../test_core.cpp in debug mode
+   Compiling ../../../core.cpp in debug mode
+   Generating csim.exe
+Distance (Double) = 2.061553
+Distance (Float) = 2.061553
+Distance (Fixed) = 2.061523
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************
