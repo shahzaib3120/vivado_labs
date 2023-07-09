@@ -62,6 +62,7 @@ REPLACE <code>%ip_name%</code> WITH YOUR IP NAME
 #include <xparameters.h>
 #include <x%ip_name%.h>
 #include "platform.h"
+#include "AxiTimerHelper.h"
 ```
 
 For <code>platform.h</code> you have to create a blank C project and copy the following files from there.
@@ -70,67 +71,87 @@ For <code>platform.h</code> you have to create a blank C project and copy the fo
 - <code>platform.h</code>
 - <code>platform_config.h</code>
 
+If <code>AxiTimerHelper.h</code> is not present in the project, you can copy the header and implementation file from [here](https://github.com/ZhangSirM/Xilinx_SDK_Image_Processing/blob/master/ConvolutionSyn/ConvolutionSyn.sdk/test/src/AxiTimerHelper.cpp)
+
 Add your Software Code to the <code>main.cc</code> file. The one you created in the HLS project. This is to verify the code is working as expected on the hardware.
 
-Use the following template to write your code in `main()`
+Use the following template to write your code.
 
 ```c++
+#include <stdio.h>
+#include <xmathfunction.h>
+#include <xparameters.h>
+#include <math.h>
+#include "AxiTimerHelper.h"
+
+unsigned int float_to_u32(float val);
+float u32_to_float(unsigned int val);
+
+float *XVecHW = (float *)XPAR_AXI_BRAM_CTRL_0_S_AXI_BASEADDR;
+float *resHW = (float *)XPAR_AXI_BRAM_CTRL_1_S_AXI_BASEADDR;
+
+// replace XMathfunction with your "X<ip_name>"
+// the ip_name should be capitalized
+// also replace XPAR_MATHFUNCTION_0_DEVICE_ID with your XPAR_<IP_NAME>_0_DEVICE_ID
+// here the IP_NAME should be all caps
+
+XMathfunction doMathFunction;
+XMathfunction_Config * doMathFunction_cfg;
+
+void init_mathCore(){
+	int status=0;
+	doMathFunction_cfg = XMathfunction_LookupConfig(XPAR_MATHFUNCTION_0_DEVICE_ID);
+	if(doMathFunction_cfg){
+		status = XMathfunction_CfgInitialize(&doMathFunction, doMathFunction_cfg);
+		if(status != XST_SUCCESS){
+			printf("Failed to Initialize\n");
+		}
+	}
+}
+
+void mathFunction(float x[100], float y, float res[100]){
+
+	for(int i=0; i<100; i++){
+		res[i]=(sin(x[i]) + sqrtf(expf(y))) / 2;
+	}
+}
+
 int main()
 {
-	init_platform();
 
-    // replace XGravity with your "X<ip_name>"
-    // the ip_name should be capitalized
-    // also replace XPAR_GRAVITY_0_DEVICE_ID with your XPAR_<IP_NAME>_0_DEVICE_ID
-    // here the IP_NAME should be all caps
+	init_mathCore();
+	AxiTimerHelper timer;
+	printf("BRAM test\n");
 
-	int status;
-	XGravity doGravity;
-	XGravity_Config *doGravity_cfg;
-
-	doGravity_cfg = XGravity_LookupConfig(XPAR_GRAVITY_0_DEVICE_ID);
-	if (!doGravity_cfg)
-		printf("Error loading config for doGravirty_cfg\n");
-
-	status = XGravity_CfgInitialize(&doGravity,doGravity_cfg);
-	if(status!=XST_SUCCESS)
-		printf("Erro initailizing for doGravity!\n");
-	//XGravity_Initialize(&doGravity,XPAR_GRAVITY_0_DEVICE_ID);
-
-
-	//running code on SW on the PS and comparing to goldenRef
-	printf("Runnig algorithm (SW) mode\n");
-	float errorAcc = 0;// Matlab using 64bit double hence for sure there will be errors
-	for (int idx = 0;idx <10;idx++)
-	{
-		float force = gravity(10,20,idx);
-
-		float errorCalc = fabsf(force-goldRef[idx]);
-		errorAcc += errorCalc;
-		printf("%d) Force: %f Ref: %f Diff:%f\n",idx+1,force,goldRef[idx],errorCalc);
+	float XVecSW[100];
+	float resSW[100];
+	for(int i=0; i<100; i++){
+		XVecSW[i]=i;
+		resSW[i]=i;
 	}
-	printf("No error occured, total erros: %f\n",errorAcc/10.0f);
+
+	timer.startTimer();
+	mathFunction(XVecSW,0.01f,resSW);
+	timer.stopTimer();
+	double timeSW = timer.getElapsedTimerInSeconds();
+	printf("Time taken by SW = %f", timeSW);
 
 
-	//running code on hardware
-	errorAcc = 0;
-	for (int idx = 0;idx <10;idx++)
-		{
-		XGravity_Set_m1(&doGravity,float_to_u32(10.0f));
-		XGravity_Set_m2(&doGravity,float_to_u32(20.0f));
-		XGravity_Set_dist(&doGravity,float_to_u32(idx)); //idx is distance in gravity function so float
-		XGravity_Start(&doGravity);
+	// using the IP Core
+	XMathfunction_Set_y(&doMathFunction, float_to_u32(0.01f));
+	timer.startTimer();
+	XMathfunction_Start(&doMathFunction);
+	while(!XMathfunction_IsDone(&doMathFunction));
+	timer.stopTimer();
+	double timeHW = timer.getElapsedTimerInSeconds();
+	printf("Time taken by HW = %f", timeHW);
 
-		while(!XGravity_IsDone(&doGravity)) ;
-
-		float force_hw = u32_to_float(XGravity_Get_return(&doGravity));
-
-		float errorCalc = fabsf(force_hw-goldRef[idx]);
-			errorAcc+=errorCalc;
-			printf("%d) Force: %f Ref: %f Diff:%f\n",idx+1,force_hw,goldRef[idx],errorCalc);
-		}
-		printf("No error occured, total erros: %f",errorAcc/10.0f);
-		printf("\n");
+	double error=0;
+	for(int i=0; i<100; i++){
+		error+=fabsf(resHW[i]-resSW[i]);
+	}
+	error/=100.0f;
+	printf("Average Error is = %f", error);
 	return 0;
 }
 
