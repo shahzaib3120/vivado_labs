@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'setMem/value' to 'setMem/value_r' to avoid the conflict with HDL keywords or other object names." projectName="Lab_8" solutionName="solution1" date="2023-07-10T03:22:19.450+0500" type="Warning"/>
+      </synLog>
+      <simLog>
+        <logs message="WARNING: [COSIM 212-369] AXI_master port 'MASTER' has a depth of '100'. Insufficient depth may result in simulation mismatch or freeze.&#xD;&#xA;   Build using &quot;C:/Xilinx/Vivado/2018.2/msys64/mingw64/bin/g++&quot;&#xD;&#xA;   Compiling test_core.cpp_pre.cpp.tb.cpp&#xD;&#xA;   Compiling apatb_setMem.cpp&#xD;&#xA;   Compiling core.cpp_pre.cpp.tb.cpp&#xD;&#xA;   Generating cosim.tv.exe" projectName="Lab_8" solutionName="solution1" date="2023-07-10T03:22:36.310+0500" type="Warning"/>
+      </simLog>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

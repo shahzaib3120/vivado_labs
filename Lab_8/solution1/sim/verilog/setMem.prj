@@ -1,0 +1,10 @@
+sv work "glbl.v"
+sv xil_defaultlib "AESL_axi_master_MASTER.v"
+sv xil_defaultlib "AESL_axi_slave_AXILiteS.v"
+sv xil_defaultlib "AESL_axi_slave_CRTL_BUS.v"
+sv xil_defaultlib "setMem.autotb.v"
+sv xil_defaultlib "setMem.v"
+sv xil_defaultlib "setMem_AXILiteS_s_axi.v"
+sv xil_defaultlib "setMem_CRTL_BUS_s_axi.v"
+sv xil_defaultlib "setMem_MASTER_m_axi.v"
+

@@ -1,0 +1,10 @@
+<annotationInfo>
+<annotationInfo>
+<item  id="19" filename="Lab_8/core.cpp" linenumber="4" name="tmp" contextFuncName="setMem" moduleName="setMem" rtlName="tmp_fu_150_p1" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="F:\Machine-Learning\vivado_labs"><\/item>
+<item  id="21" filename="Lab_8/core.cpp" linenumber="6" name="tmp_1" contextFuncName="setMem" moduleName="setMem" rtlName="tmp_1_fu_154_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="18" fileDirectory="F:\Machine-Learning\vivado_labs"><\/item>
+<item  id="28" filename="Lab_8/core.cpp" linenumber="7" name="memAddr_cast" contextFuncName="setMem" moduleName="setMem" rtlName="memAddr_cast_fu_160_p1" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="F:\Machine-Learning\vivado_labs"><\/item>
+<item  id="29" filename="Lab_8/core.cpp" linenumber="7" name="tmp_2" contextFuncName="setMem" moduleName="setMem" rtlName="tmp_2_fu_164_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="18" fileDirectory="F:\Machine-Learning\vivado_labs"><\/item>
+<item  id="31" filename="Lab_8/core.cpp" linenumber="7" name="memAddr_1" contextFuncName="setMem" moduleName="setMem" rtlName="memAddr_1_fu_169_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="25" fileDirectory="F:\Machine-Learning\vivado_labs"><\/item>
+<item  id="41" filename="Lab_8/core.cpp" linenumber="15" name="p_0_cast" contextFuncName="setMem" moduleName="setMem" rtlName="ap_return" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="2" fileDirectory="F:\Machine-Learning\vivado_labs"><\/item>
+<\/annotationInfo>
+</annotationInfo>
