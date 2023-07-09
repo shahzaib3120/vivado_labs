@@ -1,0 +1,8 @@
+<annotationInfo>
+<annotationInfo>
+<item  id="14" filename="Lab_2/core.cpp" linenumber="6" name="exitcond" contextFuncName="find" moduleName="find" rtlName="exitcond_fu_66_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="9" fileDirectory="F:\Machine-Learning\vivado_labs"><\/item>
+<item  id="16" filename="Lab_2/core.cpp" linenumber="6" name="i_1" contextFuncName="find" moduleName="find" rtlName="i_1_fu_72_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="13" fileDirectory="F:\Machine-Learning\vivado_labs"><\/item>
+<item  id="20" filename="Lab_2/core.cpp" linenumber="7" name="tmp_1" contextFuncName="find" moduleName="find" rtlName="tmp_1_fu_78_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="11" fileDirectory="F:\Machine-Learning\vivado_labs"><\/item>
+<item  id="21" filename="Lab_2/core.cpp" linenumber="7" name="storemerge" contextFuncName="find" moduleName="find" rtlName="out_vec_din" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="F:\Machine-Learning\vivado_labs"><\/item>
+<\/annotationInfo>
+</annotationInfo>
