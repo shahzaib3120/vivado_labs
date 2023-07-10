@@ -1,0 +1,9 @@
+<annotationInfo>
+<item  id="24" filename="Lab_9_Hist/core.cpp" linenumber="8" name="exitcond2" contextFuncName="doHist" moduleName="doHist" rtlName="exitcond2_fu_124_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="13" fileDirectory="/home/shahlarious/TUKL/vivado_labs"><\/item>
+<item  id="26" filename="Lab_9_Hist/core.cpp" linenumber="8" name="i_1" contextFuncName="doHist" moduleName="doHist" rtlName="i_1_fu_130_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="15" fileDirectory="/home/shahlarious/TUKL/vivado_labs"><\/item>
+<item  id="29" filename="Lab_9_Hist/core.cpp" linenumber="10" name="tmp" contextFuncName="doHist" moduleName="doHist" rtlName="tmp_fu_136_p1" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="/home/shahlarious/TUKL/vivado_labs"><\/item>
+<item  id="37" filename="Lab_9_Hist/core.cpp" linenumber="12" name="exitcond" contextFuncName="doHist" moduleName="doHist" rtlName="exitcond_fu_141_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="18" fileDirectory="/home/shahlarious/TUKL/vivado_labs"><\/item>
+<item  id="39" filename="Lab_9_Hist/core.cpp" linenumber="12" name="i_2" contextFuncName="doHist" moduleName="doHist" rtlName="i_2_fu_147_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="24" fileDirectory="/home/shahlarious/TUKL/vivado_labs"><\/item>
+<item  id="44" filename="Lab_9_Hist/core.cpp" linenumber="15" name="tmp_3" contextFuncName="doHist" moduleName="doHist" rtlName="tmp_3_fu_157_p1" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="/home/shahlarious/TUKL/vivado_labs"><\/item>
+<item  id="47" filename="Lab_9_Hist/core.cpp" linenumber="15" name="tmp_4" contextFuncName="doHist" moduleName="doHist" rtlName="tmp_4_fu_162_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="39" fileDirectory="/home/shahlarious/TUKL/vivado_labs"><\/item>
+</annotationInfo>
