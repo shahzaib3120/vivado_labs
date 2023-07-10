@@ -183,6 +183,17 @@ float u32_to_float(unsigned int val)
 	data.bytes[2] = (val >> (8*2)) & 0xff;
 	data.bytes[1] = (val >> (8*1)) & 0xff;
 	data.bytes[0] = (val >> (8*0)) & 0xff;
-	return data.val_float;
+		return data.val_float;
 }
 ```
+
+For image processing, install the followiwng libraries:
+
+``` bash
+	sudo apt-get install libjpeg62:i386
+	
+	sudo add-apt-repository ppa:linuxuprising/libpng12
+	sudo apt update
+	sudo apt install libpng12-0
+```
+
