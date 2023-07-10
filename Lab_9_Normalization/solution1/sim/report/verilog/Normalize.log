@@ -1,0 +1,127 @@
+INFO: [COSIM-47] Using XSIM for RTL simulation.
+INFO: [COSIM-14] Instrumenting C test bench ...
+   Build using "/opt/Xilinx/Vivado/2018.2/tps/lnx64/gcc-6.2.0/bin/g++"
+   Compiling core.cpp_pre.cpp.tb.cpp
+   Compiling apatb_Normalize.cpp
+   Compiling test_core.cpp_pre.cpp.tb.cpp
+   Generating cosim.tv.exe
+INFO: [COSIM-302] Starting C TB testing ... 
+INFO: [COSIM-333] Generating C post check test bench ...
+INFO: [COSIM-12] Generating RTL test bench ...
+INFO: [COSIM-323] Starting verilog simulation. 
+INFO: [COSIM-15] Starting XSIM ...
+Load Image /home/shahlarious/TUKL/vivado_labs/Lab_9_Normalization/inputImage_320x240.bmp
+Image Rows: 240 Cols: 320
+INFO: [XSIM 43-3496] Using init file passed via -initfile option "/opt/Xilinx/Vivado/2018.2/data/xsim/ip/xsim_ip.ini".
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab xil_defaultlib.apatb_Normalize_top glbl -prj Normalize.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --initfile /opt/Xilinx/Vivado/2018.2/data/xsim/ip/xsim_ip.ini --lib ieee_proposed=./ieee_proposed -s Normalize 
+Multi-threading is on. Using 6 slave threads.
+Determining compilation order of HDL files.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/shahlarious/TUKL/vivado_labs/Lab_9_Normalization/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/shahlarious/TUKL/vivado_labs/Lab_9_Normalization/solution1/sim/verilog/Normalize_fmul_32bkb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Normalize_fmul_32bkb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/shahlarious/TUKL/vivado_labs/Lab_9_Normalization/solution1/sim/verilog/Normalize_sitofp_dEe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Normalize_sitofp_dEe
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/shahlarious/TUKL/vivado_labs/Lab_9_Normalization/solution1/sim/verilog/AESL_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/shahlarious/TUKL/vivado_labs/Lab_9_Normalization/solution1/sim/verilog/AESL_axi_s_inStream.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_s_inStream
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/shahlarious/TUKL/vivado_labs/Lab_9_Normalization/solution1/sim/verilog/AESL_axi_slave_CRTL_BUS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_slave_CRTL_BUS
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/shahlarious/TUKL/vivado_labs/Lab_9_Normalization/solution1/sim/verilog/Normalize.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_Normalize_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/shahlarious/TUKL/vivado_labs/Lab_9_Normalization/solution1/sim/verilog/Normalize_fdiv_32cud.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Normalize_fdiv_32cud
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/shahlarious/TUKL/vivado_labs/Lab_9_Normalization/solution1/sim/verilog/AESL_axi_s_outStream.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_s_outStream
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/shahlarious/TUKL/vivado_labs/Lab_9_Normalization/solution1/sim/verilog/Normalize_CRTL_BUS_s_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Normalize_CRTL_BUS_s_axi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/shahlarious/TUKL/vivado_labs/Lab_9_Normalization/solution1/sim/verilog/Normalize.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Normalize
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/shahlarious/TUKL/vivado_labs/Lab_9_Normalization/solution1/sim/verilog/ip/xil_defaultlib/Normalize_ap_fdiv_14_no_dsp_32.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Normalize_ap_fdiv_14_no_dsp_32
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/shahlarious/TUKL/vivado_labs/Lab_9_Normalization/solution1/sim/verilog/ip/xil_defaultlib/Normalize_ap_fmul_2_max_dsp_32.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Normalize_ap_fmul_2_max_dsp_32
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/shahlarious/TUKL/vivado_labs/Lab_9_Normalization/solution1/sim/verilog/ip/xil_defaultlib/Normalize_ap_sitofp_4_no_dsp_32.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Normalize_ap_sitofp_4_no_dsp_32
+Starting static elaboration
+WARNING: [VRFC 10-1303] range is empty (null range) [/wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:2255]
+WARNING: [VRFC 10-1303] range is empty (null range) [/wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:2240]
+WARNING: [VRFC 10-1303] range is empty (null range) [/wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd:90362]
+WARNING: [VRFC 10-1303] range is empty (null range) [/wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd:12604]
+WARNING: [VRFC 10-1303] range is empty (null range) [/wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd:12604]
+WARNING: [VRFC 10-1303] range is empty (null range) [/wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd:12604]
+WARNING: [VRFC 10-1303] range is empty (null range) [/wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd:12604]
+WARNING: [VRFC 10-1303] range is empty (null range) [/wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:375]
+WARNING: [VRFC 10-1303] range is empty (null range) [/wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:375]
+WARNING: [VRFC 10-1303] range is empty (null range) [/wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:375]
+WARNING: [VRFC 10-1303] range is empty (null range) [/wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd:12604]
+WARNING: [VRFC 10-1303] range is empty (null range) [/wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd:12604]
+WARNING: [VRFC 10-1303] range is empty (null range) [/wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:375]
+WARNING: [VRFC 10-1303] range is empty (null range) [/wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:375]
+WARNING: [VRFC 10-1303] range is empty (null range) [/wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd:12604]
+WARNING: [VRFC 10-1303] range is empty (null range) [/wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd:12604]
+WARNING: [VRFC 10-1303] range is empty (null range) [/wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd:12604]
+WARNING: [VRFC 10-1303] range is empty (null range) [/wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd:12604]
+WARNING: [VRFC 10-1303] range is empty (null range) [/wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd:13629]
+WARNING: [VRFC 10-982] library name floating_point_v7_1_6 of instantiated unit conflicts with visible identifier [ip/xil_defaultlib/Normalize_ap_fmul_2_max_dsp_32.vhd:195]
+WARNING: [VRFC 10-1303] range is empty (null range) [/wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd:90362]
+WARNING: [VRFC 10-1303] range is empty (null range) [/wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:375]
+WARNING: [VRFC 10-1303] range is empty (null range) [/wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:375]
+WARNING: [VRFC 10-1303] range is empty (null range) [/wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:375]
+WARNING: [VRFC 10-1303] range is empty (null range) [/wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:375]
+WARNING: [VRFC 10-1303] range is empty (null range) [/wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd:12604]
+WARNING: [VRFC 10-1303] range is empty (null range) [/wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd:12604]
+WARNING: [VRFC 10-1303] range is empty (null range) [/wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd:13629]
+WARNING: [VRFC 10-982] library name floating_point_v7_1_6 of instantiated unit conflicts with visible identifier [ip/xil_defaultlib/Normalize_ap_fdiv_14_no_dsp_32.vhd:195]
+WARNING: [VRFC 10-1303] range is empty (null range) [/wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd:90362]
+WARNING: [VRFC 10-1303] range is empty (null range) [/wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:375]
+WARNING: [VRFC 10-1303] range is empty (null range) [/wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:375]
+WARNING: [VRFC 10-1303] range is empty (null range) [/wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_vh_rfs.vhd:375]
+WARNING: [VRFC 10-1303] range is empty (null range) [/wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd:30530]
+WARNING: [VRFC 10-1303] range is empty (null range) [/wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd:13629]
+WARNING: [VRFC 10-982] library name floating_point_v7_1_6 of instantiated unit conflicts with visible identifier [ip/xil_defaultlib/Normalize_ap_sitofp_4_no_dsp_32.vhd:190]
+Completed static elaboration
+ERROR: [XSIM 43-3316] Signal SIGSEGV received.
+Printing stacktrace...
+
+[0] /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab() [0x70219f]
+[1] /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab() [0x702417]
+[2] /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab() [0x6c6622]
+[3] /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab() [0x6c6c6e]
+[4] /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab() [0x6c7031]
+[5] /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab() [0x6c6e20]
+[6] /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab() [0x6c6e20]
+[7] /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab() [0x6c6e20]
+[8] /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab() [0x6c6e20]
+[9] /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab() [0x6c6399]
+[10] /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab() [0x6c6c6e]
+[11] /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab() [0x5effc2]
+[12] /opt/Xilinx/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(Verific::VeriVisitor::TraverseArray(Verific::Array const*)+0x86) [0x7fcf088cfff6]
+[13] /opt/Xilinx/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(Verific::VeriVisitor::Visit(Verific::VeriModule&)+0x98) [0x7fcf088d6cf8]
+[14] /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab() [0x5f150b]
+[15] /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab() [0x5c7a39]
+[16] /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab() [0x5efbce]
+[17] /opt/Xilinx/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(Verific::VeriVisitor::TraverseArray(Verific::Array const*)+0x86) [0x7fcf088cfff6]
+[18] /opt/Xilinx/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(Verific::VeriVisitor::Visit(Verific::VeriModule&)+0x98) [0x7fcf088d6cf8]
+[19] /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab() [0x5f150b]
+[20] /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab() [0x5c7a39]
+[21] /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab() [0x5efbce]
+[22] /opt/Xilinx/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(Verific::VeriVisitor::TraverseArray(Verific::Array const*)+0x86) [0x7fcf088cfff6]
+[23] /opt/Xilinx/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(Verific::VeriVisitor::Visit(Verific::VeriModule&)+0x98) [0x7fcf088d6cf8]
+[24] /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab() [0x5f150b]
+[25] /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab() [0x5c7a39]
+[26] /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab() [0x48cba4]
+[27] /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab() [0x4750c2]
+[28] /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab() [0x47de6e]
+[29] /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab() [0x44fc3d]
+[30] /usr/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fcf076e1083]
+[31] /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab() [0x46a1b1]
+
+Done
+ERROR: Please check the snapshot name which is created during 'xelab',the current snapshot name "xsim.dir/Normalize/xsimk" does not exist 
+INFO: [COSIM-211] II is measurable only when transaction number is greater than 1 in RTL simulation. Otherwise, they will be marked as all NA. If user wants to calculate them, please make sure there are at least 2 transactions in RTL simulation.

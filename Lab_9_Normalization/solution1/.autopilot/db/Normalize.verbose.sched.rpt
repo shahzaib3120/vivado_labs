@@ -1,0 +1,533 @@
+
+
+================================================================
+== Vivado HLS Report for 'Normalize'
+================================================================
+* Date:           Mon Jul 10 19:12:00 2023
+
+* Version:        2018.2 (Build 2258646 on Thu Jun 14 20:25:20 MDT 2018)
+* Project:        Lab_9_Normalization
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|     8.328|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +---------+---------+---------+---------+---------+
+    |      Latency      |      Interval     | Pipeline|
+    |   min   |   max   |   min   |   max   |   Type  |
+    +---------+---------+---------+---------+---------+
+    |  2227207|  2227207|  2227207|  2227207|   none  |
+    +---------+---------+---------+---------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +----------+---------+---------+----------+-----------+-----------+-------+----------+
+        |          |      Latency      | Iteration|  Initiation Interval  |  Trip |          |
+        | Loop Name|   min   |   max   |  Latency |  achieved |   target  | Count | Pipelined|
+        +----------+---------+---------+----------+-----------+-----------+-------+----------+
+        |- Loop 1  |  2227200|  2227200|        29|          -|          -|  76800|    no    |
+        +----------+---------+---------+----------+-----------+-----------+-------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 36
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+	3  / true
+3 --> 
+	4  / true
+4 --> 
+	5  / true
+5 --> 
+	6  / true
+6 --> 
+	7  / true
+7 --> 
+	8  / true
+8 --> 
+	9  / (!exitcond)
+9 --> 
+	10  / true
+10 --> 
+	11  / true
+11 --> 
+	12  / true
+12 --> 
+	13  / true
+13 --> 
+	14  / true
+14 --> 
+	15  / true
+15 --> 
+	16  / true
+16 --> 
+	17  / true
+17 --> 
+	18  / true
+18 --> 
+	19  / true
+19 --> 
+	20  / true
+20 --> 
+	21  / true
+21 --> 
+	22  / true
+22 --> 
+	23  / true
+23 --> 
+	24  / true
+24 --> 
+	25  / true
+25 --> 
+	26  / true
+26 --> 
+	27  / true
+27 --> 
+	28  / true
+28 --> 
+	29  / true
+29 --> 
+	30  / true
+30 --> 
+	31  / true
+31 --> 
+	32  / true
+32 --> 
+	33  / true
+33 --> 
+	34  / true
+34 --> 
+	35  / true
+35 --> 
+	36  / true
+36 --> 
+	8  / true
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 1.00>
+ST_1 : Operation 37 [1/1] (1.00ns)   --->   "%xMax_read = call i8 @_ssdm_op_Read.s_axilite.i8(i8 %xMax)"   --->   Operation 37 'read' 'xMax_read' <Predicate = true> <Delay = 1.00> <Core = "s_axilite">   --->   Core 10 's_axilite' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write'>
+ST_1 : Operation 38 [1/1] (1.00ns)   --->   "%xMin_read = call i8 @_ssdm_op_Read.s_axilite.i8(i8 %xMin)"   --->   Operation 38 'read' 'xMin_read' <Predicate = true> <Delay = 1.00> <Core = "s_axilite">   --->   Core 10 's_axilite' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write'>
+
+State 2 <SV = 1> <Delay = 8.32>
+ST_2 : Operation 39 [1/1] (0.00ns)   --->   "%tmp_cast = zext i8 %xMin_read to i9" [Lab_9_Normalization/core.cpp:4]   --->   Operation 39 'zext' 'tmp_cast' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 40 [1/1] (0.00ns)   --->   "%tmp_cast_27 = zext i8 %xMax_read to i9" [Lab_9_Normalization/core.cpp:5]   --->   Operation 40 'zext' 'tmp_cast_27' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 41 [1/1] (1.91ns)   --->   "%tmp_1 = sub i9 %tmp_cast_27, %tmp_cast" [Lab_9_Normalization/core.cpp:9]   --->   Operation 41 'sub' 'tmp_1' <Predicate = true> <Delay = 1.91> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.91> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 42 [1/1] (0.00ns)   --->   "%diff6 = sext i9 %tmp_1 to i32" [Lab_9_Normalization/core.cpp:9]   --->   Operation 42 'sext' 'diff6' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 43 [6/6] (6.41ns)   --->   "%diff = sitofp i32 %diff6 to float" [Lab_9_Normalization/core.cpp:9]   --->   Operation 43 'sitofp' 'diff' <Predicate = true> <Delay = 6.41> <Core = "Int2Float">   --->   Core 106 'Int2Float' <Latency = 5> <II = 1> <Delay = 6.41> <FuncUnit> <Opcode : 'sitofp' 'uitofp'> <InPorts = 1> <OutPorts = 1>
+
+State 3 <SV = 2> <Delay = 6.41>
+ST_3 : Operation 44 [5/6] (6.41ns)   --->   "%diff = sitofp i32 %diff6 to float" [Lab_9_Normalization/core.cpp:9]   --->   Operation 44 'sitofp' 'diff' <Predicate = true> <Delay = 6.41> <Core = "Int2Float">   --->   Core 106 'Int2Float' <Latency = 5> <II = 1> <Delay = 6.41> <FuncUnit> <Opcode : 'sitofp' 'uitofp'> <InPorts = 1> <OutPorts = 1>
+
+State 4 <SV = 3> <Delay = 6.41>
+ST_4 : Operation 45 [4/6] (6.41ns)   --->   "%diff = sitofp i32 %diff6 to float" [Lab_9_Normalization/core.cpp:9]   --->   Operation 45 'sitofp' 'diff' <Predicate = true> <Delay = 6.41> <Core = "Int2Float">   --->   Core 106 'Int2Float' <Latency = 5> <II = 1> <Delay = 6.41> <FuncUnit> <Opcode : 'sitofp' 'uitofp'> <InPorts = 1> <OutPorts = 1>
+
+State 5 <SV = 4> <Delay = 6.41>
+ST_5 : Operation 46 [3/6] (6.41ns)   --->   "%diff = sitofp i32 %diff6 to float" [Lab_9_Normalization/core.cpp:9]   --->   Operation 46 'sitofp' 'diff' <Predicate = true> <Delay = 6.41> <Core = "Int2Float">   --->   Core 106 'Int2Float' <Latency = 5> <II = 1> <Delay = 6.41> <FuncUnit> <Opcode : 'sitofp' 'uitofp'> <InPorts = 1> <OutPorts = 1>
+
+State 6 <SV = 5> <Delay = 6.41>
+ST_6 : Operation 47 [2/6] (6.41ns)   --->   "%diff = sitofp i32 %diff6 to float" [Lab_9_Normalization/core.cpp:9]   --->   Operation 47 'sitofp' 'diff' <Predicate = true> <Delay = 6.41> <Core = "Int2Float">   --->   Core 106 'Int2Float' <Latency = 5> <II = 1> <Delay = 6.41> <FuncUnit> <Opcode : 'sitofp' 'uitofp'> <InPorts = 1> <OutPorts = 1>
+
+State 7 <SV = 6> <Delay = 6.41>
+ST_7 : Operation 48 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %inStream_V_data_V), !map !40"   --->   Operation 48 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 49 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i1* %inStream_V_keep_V), !map !44"   --->   Operation 49 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 50 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i1* %inStream_V_strb_V), !map !48"   --->   Operation 50 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 51 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i2* %inStream_V_user_V), !map !52"   --->   Operation 51 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 52 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i1* %inStream_V_last_V), !map !56"   --->   Operation 52 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 53 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i5* %inStream_V_id_V), !map !60"   --->   Operation 53 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 54 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i6* %inStream_V_dest_V), !map !64"   --->   Operation 54 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 55 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %outStream_V_data_V), !map !68"   --->   Operation 55 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 56 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i1* %outStream_V_keep_V), !map !72"   --->   Operation 56 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 57 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i1* %outStream_V_strb_V), !map !76"   --->   Operation 57 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 58 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i2* %outStream_V_user_V), !map !80"   --->   Operation 58 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 59 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i1* %outStream_V_last_V), !map !84"   --->   Operation 59 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 60 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i5* %outStream_V_id_V), !map !88"   --->   Operation 60 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 61 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i6* %outStream_V_dest_V), !map !92"   --->   Operation 61 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 62 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8 %xMin), !map !96"   --->   Operation 62 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 63 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8 %xMax), !map !102"   --->   Operation 63 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 64 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecTopModule([10 x i8]* @Normalize_str) nounwind"   --->   Operation 64 'spectopmodule' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 65 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32 0, [10 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 0, [9 x i8]* @p_str2, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind" [Lab_9_Normalization/core.cpp:3]   --->   Operation 65 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 66 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i8 %xMin, [10 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 0, [9 x i8]* @p_str2, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind" [Lab_9_Normalization/core.cpp:4]   --->   Operation 66 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 67 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i8 %xMax, [10 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 0, [9 x i8]* @p_str2, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind" [Lab_9_Normalization/core.cpp:5]   --->   Operation 67 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 68 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i8* %inStream_V_data_V, i1* %inStream_V_keep_V, i1* %inStream_V_strb_V, i2* %inStream_V_user_V, i1* %inStream_V_last_V, i5* %inStream_V_id_V, i6* %inStream_V_dest_V, [5 x i8]* @p_str3, i32 1, i32 1, [5 x i8]* @p_str4, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind" [Lab_9_Normalization/core.cpp:6]   --->   Operation 68 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 69 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i8* %outStream_V_data_V, i1* %outStream_V_keep_V, i1* %outStream_V_strb_V, i2* %outStream_V_user_V, i1* %outStream_V_last_V, i5* %outStream_V_id_V, i6* %outStream_V_dest_V, [5 x i8]* @p_str3, i32 1, i32 1, [5 x i8]* @p_str4, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind" [Lab_9_Normalization/core.cpp:7]   --->   Operation 69 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 70 [1/6] (6.41ns)   --->   "%diff = sitofp i32 %diff6 to float" [Lab_9_Normalization/core.cpp:9]   --->   Operation 70 'sitofp' 'diff' <Predicate = true> <Delay = 6.41> <Core = "Int2Float">   --->   Core 106 'Int2Float' <Latency = 5> <II = 1> <Delay = 6.41> <FuncUnit> <Opcode : 'sitofp' 'uitofp'> <InPorts = 1> <OutPorts = 1>
+ST_7 : Operation 71 [1/1] (1.76ns)   --->   "br label %1" [Lab_9_Normalization/core.cpp:10]   --->   Operation 71 'br' <Predicate = true> <Delay = 1.76>
+
+State 8 <SV = 7> <Delay = 2.43>
+ST_8 : Operation 72 [1/1] (0.00ns)   --->   "%i = phi i17 [ 0, %0 ], [ %i_1, %2 ]"   --->   Operation 72 'phi' 'i' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 73 [1/1] (2.43ns)   --->   "%exitcond = icmp eq i17 %i, -54272" [Lab_9_Normalization/core.cpp:10]   --->   Operation 73 'icmp' 'exitcond' <Predicate = true> <Delay = 2.43> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 2.43> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_8 : Operation 74 [1/1] (0.00ns)   --->   "%empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 76800, i64 76800, i64 76800)"   --->   Operation 74 'speclooptripcount' 'empty' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 75 [1/1] (2.10ns)   --->   "%i_1 = add i17 %i, 1" [Lab_9_Normalization/core.cpp:10]   --->   Operation 75 'add' 'i_1' <Predicate = true> <Delay = 2.10> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.91> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_8 : Operation 76 [1/1] (0.00ns)   --->   "br i1 %exitcond, label %3, label %2" [Lab_9_Normalization/core.cpp:10]   --->   Operation 76 'br' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 77 [2/2] (0.00ns)   --->   "%empty_28 = call { i8, i1, i1, i2, i1, i5, i6 } @_ssdm_op_Read.axis.volatile.i8P.i1P.i1P.i2P.i1P.i5P.i6P(i8* %inStream_V_data_V, i1* %inStream_V_keep_V, i1* %inStream_V_strb_V, i2* %inStream_V_user_V, i1* %inStream_V_last_V, i5* %inStream_V_id_V, i6* %inStream_V_dest_V)" [Lab_9_Normalization/core.cpp:12]   --->   Operation 77 'read' 'empty_28' <Predicate = (!exitcond)> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_8 : Operation 78 [1/1] (0.00ns)   --->   "ret void" [Lab_9_Normalization/core.cpp:34]   --->   Operation 78 'ret' <Predicate = (exitcond)> <Delay = 0.00>
+
+State 9 <SV = 8> <Delay = 8.32>
+ST_9 : Operation 79 [1/2] (0.00ns)   --->   "%empty_28 = call { i8, i1, i1, i2, i1, i5, i6 } @_ssdm_op_Read.axis.volatile.i8P.i1P.i1P.i2P.i1P.i5P.i6P(i8* %inStream_V_data_V, i1* %inStream_V_keep_V, i1* %inStream_V_strb_V, i2* %inStream_V_user_V, i1* %inStream_V_last_V, i5* %inStream_V_id_V, i6* %inStream_V_dest_V)" [Lab_9_Normalization/core.cpp:12]   --->   Operation 79 'read' 'empty_28' <Predicate = true> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_9 : Operation 80 [1/1] (0.00ns) (grouped into LUT with out node tmp_3)   --->   "%tmp_data_V_1 = extractvalue { i8, i1, i1, i2, i1, i5, i6 } %empty_28, 0" [Lab_9_Normalization/core.cpp:12]   --->   Operation 80 'extractvalue' 'tmp_data_V_1' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 81 [1/1] (0.00ns)   --->   "%tmp_keep_V = extractvalue { i8, i1, i1, i2, i1, i5, i6 } %empty_28, 1" [Lab_9_Normalization/core.cpp:12]   --->   Operation 81 'extractvalue' 'tmp_keep_V' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 82 [1/1] (0.00ns)   --->   "%tmp_strb_V = extractvalue { i8, i1, i1, i2, i1, i5, i6 } %empty_28, 2" [Lab_9_Normalization/core.cpp:12]   --->   Operation 82 'extractvalue' 'tmp_strb_V' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 83 [1/1] (0.00ns)   --->   "%tmp_user_V = extractvalue { i8, i1, i1, i2, i1, i5, i6 } %empty_28, 3" [Lab_9_Normalization/core.cpp:12]   --->   Operation 83 'extractvalue' 'tmp_user_V' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 84 [1/1] (0.00ns)   --->   "%tmp_last_V = extractvalue { i8, i1, i1, i2, i1, i5, i6 } %empty_28, 4" [Lab_9_Normalization/core.cpp:12]   --->   Operation 84 'extractvalue' 'tmp_last_V' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 85 [1/1] (0.00ns)   --->   "%tmp_id_V = extractvalue { i8, i1, i1, i2, i1, i5, i6 } %empty_28, 5" [Lab_9_Normalization/core.cpp:12]   --->   Operation 85 'extractvalue' 'tmp_id_V' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 86 [1/1] (0.00ns)   --->   "%tmp_dest_V = extractvalue { i8, i1, i1, i2, i1, i5, i6 } %empty_28, 6" [Lab_9_Normalization/core.cpp:12]   --->   Operation 86 'extractvalue' 'tmp_dest_V' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 87 [1/1] (0.00ns) (grouped into LUT with out node tmp_3)   --->   "%tmp_2_cast = zext i8 %tmp_data_V_1 to i9" [Lab_9_Normalization/core.cpp:17]   --->   Operation 87 'zext' 'tmp_2_cast' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 88 [1/1] (1.91ns) (out node of the LUT)   --->   "%tmp_3 = sub i9 %tmp_2_cast, %tmp_cast" [Lab_9_Normalization/core.cpp:17]   --->   Operation 88 'sub' 'tmp_3' <Predicate = true> <Delay = 1.91> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.91> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_9 : Operation 89 [1/1] (0.00ns)   --->   "%tmp_s = sext i9 %tmp_3 to i32" [Lab_9_Normalization/core.cpp:17]   --->   Operation 89 'sext' 'tmp_s' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 90 [6/6] (6.41ns)   --->   "%tmp_4 = sitofp i32 %tmp_s to float" [Lab_9_Normalization/core.cpp:17]   --->   Operation 90 'sitofp' 'tmp_4' <Predicate = true> <Delay = 6.41> <Core = "Int2Float">   --->   Core 106 'Int2Float' <Latency = 5> <II = 1> <Delay = 6.41> <FuncUnit> <Opcode : 'sitofp' 'uitofp'> <InPorts = 1> <OutPorts = 1>
+
+State 10 <SV = 9> <Delay = 6.41>
+ST_10 : Operation 91 [5/6] (6.41ns)   --->   "%tmp_4 = sitofp i32 %tmp_s to float" [Lab_9_Normalization/core.cpp:17]   --->   Operation 91 'sitofp' 'tmp_4' <Predicate = true> <Delay = 6.41> <Core = "Int2Float">   --->   Core 106 'Int2Float' <Latency = 5> <II = 1> <Delay = 6.41> <FuncUnit> <Opcode : 'sitofp' 'uitofp'> <InPorts = 1> <OutPorts = 1>
+
+State 11 <SV = 10> <Delay = 6.41>
+ST_11 : Operation 92 [4/6] (6.41ns)   --->   "%tmp_4 = sitofp i32 %tmp_s to float" [Lab_9_Normalization/core.cpp:17]   --->   Operation 92 'sitofp' 'tmp_4' <Predicate = true> <Delay = 6.41> <Core = "Int2Float">   --->   Core 106 'Int2Float' <Latency = 5> <II = 1> <Delay = 6.41> <FuncUnit> <Opcode : 'sitofp' 'uitofp'> <InPorts = 1> <OutPorts = 1>
+
+State 12 <SV = 11> <Delay = 6.41>
+ST_12 : Operation 93 [3/6] (6.41ns)   --->   "%tmp_4 = sitofp i32 %tmp_s to float" [Lab_9_Normalization/core.cpp:17]   --->   Operation 93 'sitofp' 'tmp_4' <Predicate = true> <Delay = 6.41> <Core = "Int2Float">   --->   Core 106 'Int2Float' <Latency = 5> <II = 1> <Delay = 6.41> <FuncUnit> <Opcode : 'sitofp' 'uitofp'> <InPorts = 1> <OutPorts = 1>
+
+State 13 <SV = 12> <Delay = 6.41>
+ST_13 : Operation 94 [2/6] (6.41ns)   --->   "%tmp_4 = sitofp i32 %tmp_s to float" [Lab_9_Normalization/core.cpp:17]   --->   Operation 94 'sitofp' 'tmp_4' <Predicate = true> <Delay = 6.41> <Core = "Int2Float">   --->   Core 106 'Int2Float' <Latency = 5> <II = 1> <Delay = 6.41> <FuncUnit> <Opcode : 'sitofp' 'uitofp'> <InPorts = 1> <OutPorts = 1>
+
+State 14 <SV = 13> <Delay = 6.41>
+ST_14 : Operation 95 [1/6] (6.41ns)   --->   "%tmp_4 = sitofp i32 %tmp_s to float" [Lab_9_Normalization/core.cpp:17]   --->   Operation 95 'sitofp' 'tmp_4' <Predicate = true> <Delay = 6.41> <Core = "Int2Float">   --->   Core 106 'Int2Float' <Latency = 5> <II = 1> <Delay = 6.41> <FuncUnit> <Opcode : 'sitofp' 'uitofp'> <InPorts = 1> <OutPorts = 1>
+
+State 15 <SV = 14> <Delay = 6.07>
+ST_15 : Operation 96 [16/16] (6.07ns)   --->   "%tmp_5 = fdiv float %tmp_4, %diff" [Lab_9_Normalization/core.cpp:17]   --->   Operation 96 'fdiv' 'tmp_5' <Predicate = true> <Delay = 6.07> <Core = "FDiv">   --->   Core 101 'FDiv' <Latency = 15> <II = 1> <Delay = 6.07> <FuncUnit> <Opcode : 'fdiv' 'frem'> <InPorts = 2> <OutPorts = 1>
+
+State 16 <SV = 15> <Delay = 6.07>
+ST_16 : Operation 97 [15/16] (6.07ns)   --->   "%tmp_5 = fdiv float %tmp_4, %diff" [Lab_9_Normalization/core.cpp:17]   --->   Operation 97 'fdiv' 'tmp_5' <Predicate = true> <Delay = 6.07> <Core = "FDiv">   --->   Core 101 'FDiv' <Latency = 15> <II = 1> <Delay = 6.07> <FuncUnit> <Opcode : 'fdiv' 'frem'> <InPorts = 2> <OutPorts = 1>
+
+State 17 <SV = 16> <Delay = 6.07>
+ST_17 : Operation 98 [14/16] (6.07ns)   --->   "%tmp_5 = fdiv float %tmp_4, %diff" [Lab_9_Normalization/core.cpp:17]   --->   Operation 98 'fdiv' 'tmp_5' <Predicate = true> <Delay = 6.07> <Core = "FDiv">   --->   Core 101 'FDiv' <Latency = 15> <II = 1> <Delay = 6.07> <FuncUnit> <Opcode : 'fdiv' 'frem'> <InPorts = 2> <OutPorts = 1>
+
+State 18 <SV = 17> <Delay = 6.07>
+ST_18 : Operation 99 [13/16] (6.07ns)   --->   "%tmp_5 = fdiv float %tmp_4, %diff" [Lab_9_Normalization/core.cpp:17]   --->   Operation 99 'fdiv' 'tmp_5' <Predicate = true> <Delay = 6.07> <Core = "FDiv">   --->   Core 101 'FDiv' <Latency = 15> <II = 1> <Delay = 6.07> <FuncUnit> <Opcode : 'fdiv' 'frem'> <InPorts = 2> <OutPorts = 1>
+
+State 19 <SV = 18> <Delay = 6.07>
+ST_19 : Operation 100 [12/16] (6.07ns)   --->   "%tmp_5 = fdiv float %tmp_4, %diff" [Lab_9_Normalization/core.cpp:17]   --->   Operation 100 'fdiv' 'tmp_5' <Predicate = true> <Delay = 6.07> <Core = "FDiv">   --->   Core 101 'FDiv' <Latency = 15> <II = 1> <Delay = 6.07> <FuncUnit> <Opcode : 'fdiv' 'frem'> <InPorts = 2> <OutPorts = 1>
+
+State 20 <SV = 19> <Delay = 6.07>
+ST_20 : Operation 101 [11/16] (6.07ns)   --->   "%tmp_5 = fdiv float %tmp_4, %diff" [Lab_9_Normalization/core.cpp:17]   --->   Operation 101 'fdiv' 'tmp_5' <Predicate = true> <Delay = 6.07> <Core = "FDiv">   --->   Core 101 'FDiv' <Latency = 15> <II = 1> <Delay = 6.07> <FuncUnit> <Opcode : 'fdiv' 'frem'> <InPorts = 2> <OutPorts = 1>
+
+State 21 <SV = 20> <Delay = 6.07>
+ST_21 : Operation 102 [10/16] (6.07ns)   --->   "%tmp_5 = fdiv float %tmp_4, %diff" [Lab_9_Normalization/core.cpp:17]   --->   Operation 102 'fdiv' 'tmp_5' <Predicate = true> <Delay = 6.07> <Core = "FDiv">   --->   Core 101 'FDiv' <Latency = 15> <II = 1> <Delay = 6.07> <FuncUnit> <Opcode : 'fdiv' 'frem'> <InPorts = 2> <OutPorts = 1>
+
+State 22 <SV = 21> <Delay = 6.07>
+ST_22 : Operation 103 [9/16] (6.07ns)   --->   "%tmp_5 = fdiv float %tmp_4, %diff" [Lab_9_Normalization/core.cpp:17]   --->   Operation 103 'fdiv' 'tmp_5' <Predicate = true> <Delay = 6.07> <Core = "FDiv">   --->   Core 101 'FDiv' <Latency = 15> <II = 1> <Delay = 6.07> <FuncUnit> <Opcode : 'fdiv' 'frem'> <InPorts = 2> <OutPorts = 1>
+
+State 23 <SV = 22> <Delay = 6.07>
+ST_23 : Operation 104 [8/16] (6.07ns)   --->   "%tmp_5 = fdiv float %tmp_4, %diff" [Lab_9_Normalization/core.cpp:17]   --->   Operation 104 'fdiv' 'tmp_5' <Predicate = true> <Delay = 6.07> <Core = "FDiv">   --->   Core 101 'FDiv' <Latency = 15> <II = 1> <Delay = 6.07> <FuncUnit> <Opcode : 'fdiv' 'frem'> <InPorts = 2> <OutPorts = 1>
+
+State 24 <SV = 23> <Delay = 6.07>
+ST_24 : Operation 105 [7/16] (6.07ns)   --->   "%tmp_5 = fdiv float %tmp_4, %diff" [Lab_9_Normalization/core.cpp:17]   --->   Operation 105 'fdiv' 'tmp_5' <Predicate = true> <Delay = 6.07> <Core = "FDiv">   --->   Core 101 'FDiv' <Latency = 15> <II = 1> <Delay = 6.07> <FuncUnit> <Opcode : 'fdiv' 'frem'> <InPorts = 2> <OutPorts = 1>
+
+State 25 <SV = 24> <Delay = 6.07>
+ST_25 : Operation 106 [6/16] (6.07ns)   --->   "%tmp_5 = fdiv float %tmp_4, %diff" [Lab_9_Normalization/core.cpp:17]   --->   Operation 106 'fdiv' 'tmp_5' <Predicate = true> <Delay = 6.07> <Core = "FDiv">   --->   Core 101 'FDiv' <Latency = 15> <II = 1> <Delay = 6.07> <FuncUnit> <Opcode : 'fdiv' 'frem'> <InPorts = 2> <OutPorts = 1>
+
+State 26 <SV = 25> <Delay = 6.07>
+ST_26 : Operation 107 [5/16] (6.07ns)   --->   "%tmp_5 = fdiv float %tmp_4, %diff" [Lab_9_Normalization/core.cpp:17]   --->   Operation 107 'fdiv' 'tmp_5' <Predicate = true> <Delay = 6.07> <Core = "FDiv">   --->   Core 101 'FDiv' <Latency = 15> <II = 1> <Delay = 6.07> <FuncUnit> <Opcode : 'fdiv' 'frem'> <InPorts = 2> <OutPorts = 1>
+
+State 27 <SV = 26> <Delay = 6.07>
+ST_27 : Operation 108 [4/16] (6.07ns)   --->   "%tmp_5 = fdiv float %tmp_4, %diff" [Lab_9_Normalization/core.cpp:17]   --->   Operation 108 'fdiv' 'tmp_5' <Predicate = true> <Delay = 6.07> <Core = "FDiv">   --->   Core 101 'FDiv' <Latency = 15> <II = 1> <Delay = 6.07> <FuncUnit> <Opcode : 'fdiv' 'frem'> <InPorts = 2> <OutPorts = 1>
+
+State 28 <SV = 27> <Delay = 6.07>
+ST_28 : Operation 109 [3/16] (6.07ns)   --->   "%tmp_5 = fdiv float %tmp_4, %diff" [Lab_9_Normalization/core.cpp:17]   --->   Operation 109 'fdiv' 'tmp_5' <Predicate = true> <Delay = 6.07> <Core = "FDiv">   --->   Core 101 'FDiv' <Latency = 15> <II = 1> <Delay = 6.07> <FuncUnit> <Opcode : 'fdiv' 'frem'> <InPorts = 2> <OutPorts = 1>
+
+State 29 <SV = 28> <Delay = 6.07>
+ST_29 : Operation 110 [2/16] (6.07ns)   --->   "%tmp_5 = fdiv float %tmp_4, %diff" [Lab_9_Normalization/core.cpp:17]   --->   Operation 110 'fdiv' 'tmp_5' <Predicate = true> <Delay = 6.07> <Core = "FDiv">   --->   Core 101 'FDiv' <Latency = 15> <II = 1> <Delay = 6.07> <FuncUnit> <Opcode : 'fdiv' 'frem'> <InPorts = 2> <OutPorts = 1>
+
+State 30 <SV = 29> <Delay = 6.07>
+ST_30 : Operation 111 [1/16] (6.07ns)   --->   "%tmp_5 = fdiv float %tmp_4, %diff" [Lab_9_Normalization/core.cpp:17]   --->   Operation 111 'fdiv' 'tmp_5' <Predicate = true> <Delay = 6.07> <Core = "FDiv">   --->   Core 101 'FDiv' <Latency = 15> <II = 1> <Delay = 6.07> <FuncUnit> <Opcode : 'fdiv' 'frem'> <InPorts = 2> <OutPorts = 1>
+
+State 31 <SV = 30> <Delay = 5.70>
+ST_31 : Operation 112 [4/4] (5.70ns)   --->   "%y_t_float = fmul float %tmp_5, 2.550000e+02" [Lab_9_Normalization/core.cpp:17]   --->   Operation 112 'fmul' 'y_t_float' <Predicate = true> <Delay = 5.70> <Core = "FMul">   --->   Core 100 'FMul' <Latency = 3> <II = 1> <Delay = 5.70> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+
+State 32 <SV = 31> <Delay = 5.70>
+ST_32 : Operation 113 [3/4] (5.70ns)   --->   "%y_t_float = fmul float %tmp_5, 2.550000e+02" [Lab_9_Normalization/core.cpp:17]   --->   Operation 113 'fmul' 'y_t_float' <Predicate = true> <Delay = 5.70> <Core = "FMul">   --->   Core 100 'FMul' <Latency = 3> <II = 1> <Delay = 5.70> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+
+State 33 <SV = 32> <Delay = 5.70>
+ST_33 : Operation 114 [2/4] (5.70ns)   --->   "%y_t_float = fmul float %tmp_5, 2.550000e+02" [Lab_9_Normalization/core.cpp:17]   --->   Operation 114 'fmul' 'y_t_float' <Predicate = true> <Delay = 5.70> <Core = "FMul">   --->   Core 100 'FMul' <Latency = 3> <II = 1> <Delay = 5.70> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+
+State 34 <SV = 33> <Delay = 5.70>
+ST_34 : Operation 115 [1/4] (5.70ns)   --->   "%y_t_float = fmul float %tmp_5, 2.550000e+02" [Lab_9_Normalization/core.cpp:17]   --->   Operation 115 'fmul' 'y_t_float' <Predicate = true> <Delay = 5.70> <Core = "FMul">   --->   Core 100 'FMul' <Latency = 3> <II = 1> <Delay = 5.70> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_34 : Operation 116 [1/1] (0.00ns)   --->   "%p_Val2_s = bitcast float %y_t_float to i32" [/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/src/technology/autopilot/header_files/utils/x_hls_utils.h:273->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/src/technology/autopilot/header_files/utils/x_hls_utils.h:282->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:56->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:98->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->Lab_9_Normalization/core.cpp:20]   --->   Operation 116 'bitcast' 'p_Val2_s' <Predicate = true> <Delay = 0.00>
+ST_34 : Operation 117 [1/1] (0.00ns)   --->   "%loc_V = call i8 @_ssdm_op_PartSelect.i8.i32.i32.i32(i32 %p_Val2_s, i32 23, i32 30) nounwind" [/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/src/technology/autopilot/header_files/utils/x_hls_utils.h:280->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/src/technology/autopilot/header_files/utils/x_hls_utils.h:282->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:56->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:98->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->Lab_9_Normalization/core.cpp:20]   --->   Operation 117 'partselect' 'loc_V' <Predicate = true> <Delay = 0.00>
+ST_34 : Operation 118 [1/1] (0.00ns)   --->   "%loc_V_1 = trunc i32 %p_Val2_s to i23" [/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/src/technology/autopilot/header_files/utils/x_hls_utils.h:281->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/src/technology/autopilot/header_files/utils/x_hls_utils.h:282->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:56->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:98->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->Lab_9_Normalization/core.cpp:20]   --->   Operation 118 'trunc' 'loc_V_1' <Predicate = true> <Delay = 0.00>
+
+State 35 <SV = 34> <Delay = 7.30>
+ST_35 : Operation 119 [1/1] (0.00ns)   --->   "%tmp_3_i_i_i = call i25 @_ssdm_op_BitConcatenate.i25.i1.i23.i1(i1 true, i23 %loc_V_1, i1 false)" [/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:58->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:98->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->Lab_9_Normalization/core.cpp:20]   --->   Operation 119 'bitconcatenate' 'tmp_3_i_i_i' <Predicate = true> <Delay = 0.00>
+ST_35 : Operation 120 [1/1] (0.00ns) (grouped into LUT with out node p_Val2_4)   --->   "%tmp_3_i_i_i_cast2 = zext i25 %tmp_3_i_i_i to i55" [/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:58->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:98->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->Lab_9_Normalization/core.cpp:20]   --->   Operation 120 'zext' 'tmp_3_i_i_i_cast2' <Predicate = true> <Delay = 0.00>
+ST_35 : Operation 121 [1/1] (0.00ns)   --->   "%tmp_i_i_i_i_cast1 = zext i8 %loc_V to i9" [/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/src/technology/autopilot/header_files/utils/x_hls_utils.h:302->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:61->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:98->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->Lab_9_Normalization/core.cpp:20]   --->   Operation 121 'zext' 'tmp_i_i_i_i_cast1' <Predicate = true> <Delay = 0.00>
+ST_35 : Operation 122 [1/1] (1.91ns)   --->   "%sh_assign = add i9 -127, %tmp_i_i_i_i_cast1" [/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/src/technology/autopilot/header_files/utils/x_hls_utils.h:302->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:61->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:98->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->Lab_9_Normalization/core.cpp:20]   --->   Operation 122 'add' 'sh_assign' <Predicate = true> <Delay = 1.91> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.91> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_35 : Operation 123 [1/1] (0.00ns)   --->   "%isNeg = call i1 @_ssdm_op_BitSelect.i1.i9.i32(i9 %sh_assign, i32 8)" [/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:61->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:98->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->Lab_9_Normalization/core.cpp:20]   --->   Operation 123 'bitselect' 'isNeg' <Predicate = true> <Delay = 0.00>
+ST_35 : Operation 124 [1/1] (1.91ns)   --->   "%tmp_5_i_i_i = sub i8 127, %loc_V" [/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:61->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:98->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->Lab_9_Normalization/core.cpp:20]   --->   Operation 124 'sub' 'tmp_5_i_i_i' <Predicate = true> <Delay = 1.91> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.91> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_35 : Operation 125 [1/1] (0.00ns)   --->   "%tmp_5_i_i_i_cast = sext i8 %tmp_5_i_i_i to i9" [/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:61->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:98->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->Lab_9_Normalization/core.cpp:20]   --->   Operation 125 'sext' 'tmp_5_i_i_i_cast' <Predicate = true> <Delay = 0.00>
+ST_35 : Operation 126 [1/1] (0.96ns)   --->   "%sh_assign_1 = select i1 %isNeg, i9 %tmp_5_i_i_i_cast, i9 %sh_assign" [/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:61->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:98->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->Lab_9_Normalization/core.cpp:20]   --->   Operation 126 'select' 'sh_assign_1' <Predicate = true> <Delay = 0.96> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.24> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_35 : Operation 127 [1/1] (0.00ns) (grouped into LUT with out node p_Val2_4)   --->   "%sh_assign_1_cast = sext i9 %sh_assign_1 to i32" [/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:61->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:98->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->Lab_9_Normalization/core.cpp:20]   --->   Operation 127 'sext' 'sh_assign_1_cast' <Predicate = true> <Delay = 0.00>
+ST_35 : Operation 128 [1/1] (0.00ns) (grouped into LUT with out node p_Val2_4)   --->   "%sh_assign_1_cast_cas = sext i9 %sh_assign_1 to i25" [/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:61->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:98->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->Lab_9_Normalization/core.cpp:20]   --->   Operation 128 'sext' 'sh_assign_1_cast_cas' <Predicate = true> <Delay = 0.00>
+ST_35 : Operation 129 [1/1] (0.00ns) (grouped into LUT with out node p_Val2_4)   --->   "%tmp_7_i_i_i = zext i32 %sh_assign_1_cast to i55" [/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:61->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:98->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->Lab_9_Normalization/core.cpp:20]   --->   Operation 129 'zext' 'tmp_7_i_i_i' <Predicate = true> <Delay = 0.00>
+ST_35 : Operation 130 [1/1] (0.00ns) (grouped into LUT with out node p_Val2_4)   --->   "%tmp_8_i_i_i = lshr i25 %tmp_3_i_i_i, %sh_assign_1_cast_cas" [/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:61->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:98->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->Lab_9_Normalization/core.cpp:20]   --->   Operation 130 'lshr' 'tmp_8_i_i_i' <Predicate = true> <Delay = 0.00> <Core = "Shift">   --->   Core 28 'Shift' <Latency = 0> <II = 1> <Delay = 4.42> <FuncUnit> <Opcode : 'shl' 'lshr' 'ashr'> <InPorts = 2> <OutPorts = 1>
+ST_35 : Operation 131 [1/1] (0.00ns) (grouped into LUT with out node p_Val2_4)   --->   "%tmp_i_i_i = shl i55 %tmp_3_i_i_i_cast2, %tmp_7_i_i_i" [/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:61->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:98->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->Lab_9_Normalization/core.cpp:20]   --->   Operation 131 'shl' 'tmp_i_i_i' <Predicate = true> <Delay = 0.00> <Core = "Shift">   --->   Core 28 'Shift' <Latency = 0> <II = 1> <Delay = 4.42> <FuncUnit> <Opcode : 'shl' 'lshr' 'ashr'> <InPorts = 2> <OutPorts = 1>
+ST_35 : Operation 132 [1/1] (0.00ns) (grouped into LUT with out node p_Val2_4)   --->   "%tmp_8 = call i1 @_ssdm_op_BitSelect.i1.i25.i32(i25 %tmp_8_i_i_i, i32 24)" [/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:64->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:98->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->Lab_9_Normalization/core.cpp:20]   --->   Operation 132 'bitselect' 'tmp_8' <Predicate = true> <Delay = 0.00>
+ST_35 : Operation 133 [1/1] (0.00ns) (grouped into LUT with out node p_Val2_4)   --->   "%tmp = zext i1 %tmp_8 to i8" [/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:64->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:98->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->Lab_9_Normalization/core.cpp:20]   --->   Operation 133 'zext' 'tmp' <Predicate = true> <Delay = 0.00>
+ST_35 : Operation 134 [1/1] (0.00ns) (grouped into LUT with out node p_Val2_4)   --->   "%tmp_2 = call i8 @_ssdm_op_PartSelect.i8.i55.i32.i32(i55 %tmp_i_i_i, i32 24, i32 31)" [/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:64->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:98->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->Lab_9_Normalization/core.cpp:20]   --->   Operation 134 'partselect' 'tmp_2' <Predicate = true> <Delay = 0.00>
+ST_35 : Operation 135 [1/1] (4.42ns) (out node of the LUT)   --->   "%p_Val2_4 = select i1 %isNeg, i8 %tmp, i8 %tmp_2" [/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:61->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:98->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->Lab_9_Normalization/core.cpp:20]   --->   Operation 135 'select' 'p_Val2_4' <Predicate = true> <Delay = 4.42> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.24> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_35 : Operation 136 [2/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i8P.i1P.i1P.i2P.i1P.i5P.i6P(i8* %outStream_V_data_V, i1* %outStream_V_keep_V, i1* %outStream_V_strb_V, i2* %outStream_V_user_V, i1* %outStream_V_last_V, i5* %outStream_V_id_V, i6* %outStream_V_dest_V, i8 %p_Val2_4, i1 %tmp_keep_V, i1 %tmp_strb_V, i2 %tmp_user_V, i1 %tmp_last_V, i5 %tmp_id_V, i6 %tmp_dest_V)" [Lab_9_Normalization/core.cpp:30]   --->   Operation 136 'write' <Predicate = true> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+
+State 36 <SV = 35> <Delay = 0.00>
+ST_36 : Operation 137 [1/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i8P.i1P.i1P.i2P.i1P.i5P.i6P(i8* %outStream_V_data_V, i1* %outStream_V_keep_V, i1* %outStream_V_strb_V, i2* %outStream_V_user_V, i1* %outStream_V_last_V, i5* %outStream_V_id_V, i6* %outStream_V_dest_V, i8 %p_Val2_4, i1 %tmp_keep_V, i1 %tmp_strb_V, i2 %tmp_user_V, i1 %tmp_last_V, i5 %tmp_id_V, i6 %tmp_dest_V)" [Lab_9_Normalization/core.cpp:30]   --->   Operation 137 'write' <Predicate = true> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_36 : Operation 138 [1/1] (0.00ns)   --->   "br label %1" [Lab_9_Normalization/core.cpp:10]   --->   Operation 138 'br' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 1ns
+The critical path consists of the following:
+	s_axi read on port 'xMax' [34]  (1 ns)
+
+ <State 2>: 8.33ns
+The critical path consists of the following:
+	'sub' operation ('tmp_1', Lab_9_Normalization/core.cpp:9) [43]  (1.92 ns)
+	'sitofp' operation ('diff', Lab_9_Normalization/core.cpp:9) [45]  (6.41 ns)
+
+ <State 3>: 6.41ns
+The critical path consists of the following:
+	'sitofp' operation ('diff', Lab_9_Normalization/core.cpp:9) [45]  (6.41 ns)
+
+ <State 4>: 6.41ns
+The critical path consists of the following:
+	'sitofp' operation ('diff', Lab_9_Normalization/core.cpp:9) [45]  (6.41 ns)
+
+ <State 5>: 6.41ns
+The critical path consists of the following:
+	'sitofp' operation ('diff', Lab_9_Normalization/core.cpp:9) [45]  (6.41 ns)
+
+ <State 6>: 6.41ns
+The critical path consists of the following:
+	'sitofp' operation ('diff', Lab_9_Normalization/core.cpp:9) [45]  (6.41 ns)
+
+ <State 7>: 6.41ns
+The critical path consists of the following:
+	'sitofp' operation ('diff', Lab_9_Normalization/core.cpp:9) [45]  (6.41 ns)
+
+ <State 8>: 2.43ns
+The critical path consists of the following:
+	'phi' operation ('i') with incoming values : ('i', Lab_9_Normalization/core.cpp:10) [48]  (0 ns)
+	'icmp' operation ('exitcond', Lab_9_Normalization/core.cpp:10) [49]  (2.43 ns)
+
+ <State 9>: 8.33ns
+The critical path consists of the following:
+	axis read on port 'inStream_V_data_V' (Lab_9_Normalization/core.cpp:12) [54]  (0 ns)
+	'sub' operation ('tmp_3', Lab_9_Normalization/core.cpp:17) [63]  (1.92 ns)
+	'sitofp' operation ('tmp_4', Lab_9_Normalization/core.cpp:17) [65]  (6.41 ns)
+
+ <State 10>: 6.41ns
+The critical path consists of the following:
+	'sitofp' operation ('tmp_4', Lab_9_Normalization/core.cpp:17) [65]  (6.41 ns)
+
+ <State 11>: 6.41ns
+The critical path consists of the following:
+	'sitofp' operation ('tmp_4', Lab_9_Normalization/core.cpp:17) [65]  (6.41 ns)
+
+ <State 12>: 6.41ns
+The critical path consists of the following:
+	'sitofp' operation ('tmp_4', Lab_9_Normalization/core.cpp:17) [65]  (6.41 ns)
+
+ <State 13>: 6.41ns
+The critical path consists of the following:
+	'sitofp' operation ('tmp_4', Lab_9_Normalization/core.cpp:17) [65]  (6.41 ns)
+
+ <State 14>: 6.41ns
+The critical path consists of the following:
+	'sitofp' operation ('tmp_4', Lab_9_Normalization/core.cpp:17) [65]  (6.41 ns)
+
+ <State 15>: 6.08ns
+The critical path consists of the following:
+	'fdiv' operation ('tmp_5', Lab_9_Normalization/core.cpp:17) [66]  (6.08 ns)
+
+ <State 16>: 6.08ns
+The critical path consists of the following:
+	'fdiv' operation ('tmp_5', Lab_9_Normalization/core.cpp:17) [66]  (6.08 ns)
+
+ <State 17>: 6.08ns
+The critical path consists of the following:
+	'fdiv' operation ('tmp_5', Lab_9_Normalization/core.cpp:17) [66]  (6.08 ns)
+
+ <State 18>: 6.08ns
+The critical path consists of the following:
+	'fdiv' operation ('tmp_5', Lab_9_Normalization/core.cpp:17) [66]  (6.08 ns)
+
+ <State 19>: 6.08ns
+The critical path consists of the following:
+	'fdiv' operation ('tmp_5', Lab_9_Normalization/core.cpp:17) [66]  (6.08 ns)
+
+ <State 20>: 6.08ns
+The critical path consists of the following:
+	'fdiv' operation ('tmp_5', Lab_9_Normalization/core.cpp:17) [66]  (6.08 ns)
+
+ <State 21>: 6.08ns
+The critical path consists of the following:
+	'fdiv' operation ('tmp_5', Lab_9_Normalization/core.cpp:17) [66]  (6.08 ns)
+
+ <State 22>: 6.08ns
+The critical path consists of the following:
+	'fdiv' operation ('tmp_5', Lab_9_Normalization/core.cpp:17) [66]  (6.08 ns)
+
+ <State 23>: 6.08ns
+The critical path consists of the following:
+	'fdiv' operation ('tmp_5', Lab_9_Normalization/core.cpp:17) [66]  (6.08 ns)
+
+ <State 24>: 6.08ns
+The critical path consists of the following:
+	'fdiv' operation ('tmp_5', Lab_9_Normalization/core.cpp:17) [66]  (6.08 ns)
+
+ <State 25>: 6.08ns
+The critical path consists of the following:
+	'fdiv' operation ('tmp_5', Lab_9_Normalization/core.cpp:17) [66]  (6.08 ns)
+
+ <State 26>: 6.08ns
+The critical path consists of the following:
+	'fdiv' operation ('tmp_5', Lab_9_Normalization/core.cpp:17) [66]  (6.08 ns)
+
+ <State 27>: 6.08ns
+The critical path consists of the following:
+	'fdiv' operation ('tmp_5', Lab_9_Normalization/core.cpp:17) [66]  (6.08 ns)
+
+ <State 28>: 6.08ns
+The critical path consists of the following:
+	'fdiv' operation ('tmp_5', Lab_9_Normalization/core.cpp:17) [66]  (6.08 ns)
+
+ <State 29>: 6.08ns
+The critical path consists of the following:
+	'fdiv' operation ('tmp_5', Lab_9_Normalization/core.cpp:17) [66]  (6.08 ns)
+
+ <State 30>: 6.08ns
+The critical path consists of the following:
+	'fdiv' operation ('tmp_5', Lab_9_Normalization/core.cpp:17) [66]  (6.08 ns)
+
+ <State 31>: 5.7ns
+The critical path consists of the following:
+	'fmul' operation ('y_t_float', Lab_9_Normalization/core.cpp:17) [67]  (5.7 ns)
+
+ <State 32>: 5.7ns
+The critical path consists of the following:
+	'fmul' operation ('y_t_float', Lab_9_Normalization/core.cpp:17) [67]  (5.7 ns)
+
+ <State 33>: 5.7ns
+The critical path consists of the following:
+	'fmul' operation ('y_t_float', Lab_9_Normalization/core.cpp:17) [67]  (5.7 ns)
+
+ <State 34>: 5.7ns
+The critical path consists of the following:
+	'fmul' operation ('y_t_float', Lab_9_Normalization/core.cpp:17) [67]  (5.7 ns)
+
+ <State 35>: 7.3ns
+The critical path consists of the following:
+	'add' operation ('sh', /wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/src/technology/autopilot/header_files/utils/x_hls_utils.h:302->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:61->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:98->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->Lab_9_Normalization/core.cpp:20) [74]  (1.92 ns)
+	'select' operation ('sh', /wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:61->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:98->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->Lab_9_Normalization/core.cpp:20) [78]  (0.968 ns)
+	'lshr' operation ('tmp_8_i_i_i', /wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:61->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:98->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->Lab_9_Normalization/core.cpp:20) [82]  (0 ns)
+	'select' operation ('__Val2__', /wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:61->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:98->/wrk/2018.2/continuous/2018_06_14_2258646/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->Lab_9_Normalization/core.cpp:20) [87]  (4.42 ns)
+
+ <State 36>: 0ns
+The critical path consists of the following:
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+	State 8
+	State 9
+	State 10
+	State 11
+	State 12
+	State 13
+	State 14
+	State 15
+	State 16
+	State 17
+	State 18
+	State 19
+	State 20
+	State 21
+	State 22
+	State 23
+	State 24
+	State 25
+	State 26
+	State 27
+	State 28
+	State 29
+	State 30
+	State 31
+	State 32
+	State 33
+	State 34
+	State 35
+	State 36
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A
