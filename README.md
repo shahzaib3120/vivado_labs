@@ -192,6 +192,8 @@ For image processing, install the followiwng libraries:
 ``` bash
 	sudo apt-get install libjpeg62:i386
 	
+	sudo apt-get install libjpeg62	
+	
 	sudo add-apt-repository ppa:linuxuprising/libpng12
 	sudo apt update
 	sudo apt install libpng12-0
