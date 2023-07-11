@@ -1,0 +1,12 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+make: 'csim.exe' is up to date.
+sh: 1: pause: not found
+Load Image /home/shahlarious/TUKL/vivado_labs/Convolutions/inputImage.bmp
+Image Rows=240 Cols=320
+Destination Rows=240 Cols=320
+Calling Core function!
+Core function ended!
+Saving image...
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

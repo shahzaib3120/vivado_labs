@@ -37,11 +37,6 @@
 			<location>/home/shahlarious/TUKL/vivado_labs/Lab_9_Normalization/.apc/.tb</location>
 		</link>
 		<link>
-			<name>.reference/imgproc.hpp</name>
-			<type>1</type>
-			<location>/opt/Xilinx/Vivado/2018.2/include/opencv2/imgproc/imgproc.hpp</location>
-		</link>
-		<link>
 			<name>solution1/constraints</name>
 			<type>2</type>
 			<location>/home/shahlarious/TUKL/vivado_labs/Lab_9_Normalization/solution1/.tcls</location>

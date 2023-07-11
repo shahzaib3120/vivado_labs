@@ -1,7 +1,6 @@
 INFO: [SIM 2] *************** CSIM start ***************
 INFO: [SIM 4] CSIM will launch GCC as the compiler.
    Compiling ../../../test_core.cpp in debug mode
-   Compiling ../../../core.cpp in debug mode
    Generating csim.exe
 Load Image /home/shahlarious/TUKL/vivado_labs/Lab_9_Normalization/inputImage_320x240.bmp
 Image Rows: 240 Cols: 320

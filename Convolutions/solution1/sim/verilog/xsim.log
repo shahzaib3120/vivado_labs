@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# xsim v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Jul 11 15:34:48 2023
+# Process ID: 104057
+# Current directory: /home/shahlarious/TUKL/vivado_labs/Convolutions/solution1/sim/verilog
+# Command line: xsim -mode tcl -source {xsim.dir/ImageProcess/xsim_script.tcl}
+# Log file: /home/shahlarious/TUKL/vivado_labs/Convolutions/solution1/sim/verilog/xsim.log
+# Journal file: /home/shahlarious/TUKL/vivado_labs/Convolutions/solution1/sim/verilog/xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/ImageProcess/xsim_script.tcl
+# xsim {ImageProcess} -autoloadwcfg -tclbatch {ImageProcess.tcl}
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source ImageProcess.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "125000"
+// RTL Simulation : 1 / 1 [100.00%] @ "41300365000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 41300405 ns : File "/home/shahlarious/TUKL/vivado_labs/Convolutions/solution1/sim/verilog/ImageProcess.autotb.v" Line 537
+run: Time (s): cpu = 00:00:00.01 ; elapsed = 00:01:51 . Memory (MB): peak = 1165.312 ; gain = 0.000 ; free physical = 1156 ; free virtual = 13833
+## quit
+INFO: [Common 17-206] Exiting xsim at Tue Jul 11 15:36:51 2023...

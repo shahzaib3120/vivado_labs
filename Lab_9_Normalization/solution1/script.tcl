@@ -5,9 +5,9 @@
 ############################################################
 open_project Lab_9_Normalization
 set_top Normalize
-add_files Lab_9_Normalization/core.cpp
 add_files Lab_9_Normalization/core.h
-add_files -tb Lab_9_Normalization/test_core.cpp
+add_files Lab_9_Normalization/core.cpp
+add_files -tb Lab_9_Normalization/test_core.cpp -cflags "-Wno-unknown-pragmas"
 open_solution "solution1"
 set_part {xc7z020clg484-1} -tool vivado
 create_clock -period 10 -name default
